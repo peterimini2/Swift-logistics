@@ -1,0 +1,15 @@
+ ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+      margin-top: 20px;
+      justify-content: center;
+      font-size: 23px;
+    }
+
+    .top-image {
+      background-image: url(/images/slider-2.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      padding-bottom: 200px;
+    }
