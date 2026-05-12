@@ -14,6 +14,14 @@
       text-decoration: underline;
     }
 
+    .logo {
+      width: 70px;
+      position: absolute;
+      top: 9px;
+      left: 40px;
+      cursor: pointer;
+    }
+
     .header {
       font-size: 50px;
       color: rgb(114, 99, 232);
@@ -22,7 +30,7 @@
       padding-top: 180px; 
       text-align: left;
       width: 850px;
-      font-weight: bold;
+      font-weight: bolder;
     }
 
     .top-image {
@@ -38,10 +46,28 @@
     }
 
     .text-box {
-      padding: 10px;
+      padding: 20px;
       width: 320px;
       position: absolute;
       top: 500px;
       left: 150px;
-      border-radius: 4px;
+      border-radius: 6px;
+    }
+
+    .track-btn {
+      background-image: linear-gradient(to right, #777770, #151515);
+      padding: 15px 16px;
+      position: absolute;
+      top: 504px;
+      border-radius: 8px;
+      left: 450px;
+      width: 200px;
+      font-size: 14px;
+      font-weight: bolder;
+      color: white;
+      text-decoration: none;
+    }
+    
+    .track-btn:hover {
+      color: rgb(114, 99, 232);
     }
