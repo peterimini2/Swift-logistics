@@ -68,3 +68,10 @@
     .track-btn:hover {
       color: rgb(114, 99, 232);
     }
+
+    .offer {
+      font-size: 3em;
+      text-align: center;
+      font-weight: bold;
+      
+    }
