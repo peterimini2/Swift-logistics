@@ -1,0 +1,38 @@
+.card {
+      background-color: rgb(114, 99, 232);
+      padding: 50px 110px;
+      font-weight: bolder;
+      font-size: 15px;
+      display: flex;
+      border-radius: 10px;
+      position: absolute;
+      bottom: 500px;
+      left: 40px;
+      width: 50px;
+    }
+
+    .card2 {
+      background-color: rgb(114, 99, 232);
+      padding: 62px 110px;
+      font-weight: bolder;
+      font-size: 15px;
+      display: flex;
+      border-radius: 10px;
+      position: absolute;
+      bottom: 500px;
+      left: 350px;
+      width: 50px;
+    }
+
+    .card3 {
+      background-color: rgb(114, 99, 232);
+      padding: 62px 80px;
+      font-weight: bolder;
+      font-size: 15px;
+      display: flex;
+      border-radius: 10px;
+      position: absolute;
+      bottom: 500px;
+      right: 310px;
+      width: 130px;
+    }

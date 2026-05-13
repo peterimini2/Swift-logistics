@@ -34,11 +34,8 @@
     }
 
     .top-image {
-      background-image: url(/images/slider-2.jpg);
-      background-position: top;
-      background-repeat: no-repeat;
+      background: url(/images/slider-2.jpg) top no-repeat;
       padding-bottom: 1000px;
-      margin-top: 0;
       margin-left: -8px;
       margin-right: -8px;
       margin-top: -20px;
