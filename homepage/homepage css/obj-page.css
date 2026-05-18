@@ -1,0 +1,31 @@
+ body {
+      background-color: rgb(119, 119, 112);
+    }
+
+    .obj-img {
+      position: absolute;
+      display: inline-block;
+      left: 40px;
+      top: 70px;
+      width: 520px;
+      height: 450px;
+      border-radius: 6px;
+    }
+
+    .obj-text {
+      width: 550px;
+      margin-left:640px;
+      font-size: 19px;
+      margin-top: 73px;
+    }
+
+    .obj-text h1 {
+      line-height: 45px;
+      color: white;
+      padding-bottom: 23px;
+    }
+
+    .obj-text p {
+      line-height: 27px;
+      text-align: start;
+    }
