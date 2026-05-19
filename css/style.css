@@ -1,7 +1,10 @@
- body {
-  font-family: Poppins, sans-serif;
- }
- 
+  body {
+    font-family: Poppins, sans-serif;
+    background-color: white;
+    width: 100%;
+  }
+  
+
  ul {
       display: flex;
       list-style: none;
@@ -43,7 +46,7 @@
 
     .top-image {
       background: url(/images/slider-2.jpg) top no-repeat;
-      padding-bottom: 1000px;
+      height: 1000px;
       margin-left: -8px;
       margin-right: -8px;
       margin-top: -20px;
@@ -74,5 +77,331 @@
     }
     
     .track-btn:hover {
+      color: rgb(114, 99, 232);
+    }
+
+    /* cards row */
+    .card-1 {
+      left: 50px;
+    }
+
+    .card-1 h2 {
+      padding: 40px 90px;
+    }
+
+    .card-2 {
+      left: 350px;
+    }
+
+    .card-2 h2 {
+      padding: 40px 90px;
+    }
+
+    .card-3 {
+      right: 355px;
+    }
+
+    .card-3 h2 {
+      padding: 40px 65px;
+      white-space: nowrap;
+      
+    }
+
+    .card-4 {
+      right: 55px;
+    }
+
+    .card-4 h2 {
+      padding: 40px 90px;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4 {
+      background-color: rgb(114, 99, 232);
+      height: 185px;   
+      width: 260px;  
+      font-weight: bolder;
+      font-size: 15px;
+      display: flex;
+      border-radius: 10px;
+      position: absolute;
+      bottom: -110px;
+    }
+
+
+    .learn-more {
+      position: absolute;
+      align-self: center;
+      left: 90px;
+      top: 115px;
+      color: white;
+      opacity: 0;
+    }
+
+    .learn-more:hover {
+      opacity: 1;
+      cursor: pointer;
+      color: white
+    }
+    /* First section ends here */
+
+
+    /* Our Offer Section begins here */
+
+    .offer-section {
+      margin-top: 250px;
+      position: relative;
+    }
+     .offer-header {
+      font-size: 3em;
+      text-align: center;
+      font-weight: bold;
+      padding-bottom: 60px;
+    }
+
+    .offer-container {
+      display:flex;
+      flex-wrap: wrap;
+    }
+
+    /*Storage Facility*/
+    .storage-img {
+      position: relative;
+      width: 380px;
+      height: 280px;
+      margin-left: 17px;
+    }
+
+    .storage-card {
+      position: absolute;
+      top: 362px;
+      left: 17px;
+      background-color: rgb(114, 99, 232);
+      color: white;
+      padding: 12.8px 19.2px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .storage-card:hover {
+      background-color: black;
+    }
+
+     /*Maritime Cargo Transport*/
+    .cargo-img {
+     width: 380px;
+     height: 280px;
+     margin-left: 16px;
+    }
+
+    .cargo-card {
+      position: absolute;
+      top: 362px;
+      left: 413px;
+      background-color: rgb(114, 99, 232);
+      color: white;
+      padding: 12.8px 19.2px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .cargo-card:hover {
+      background-color: black;
+    }
+
+     /*Air Cargo*/
+    .air-cargo {
+      width: 380px;
+      height: 280px;
+      margin-left: 16px;
+    }
+
+    .air-card {
+      position: absolute;
+      top: 362px;
+      right: 326px;
+      background-color: rgb(114, 99, 232);
+      color: white;
+      padding: 12.8px 19.2px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .air-card:hover {
+      background-color: black;
+    }
+
+     /*Land Transport*/
+    .land-trp {
+      width: 380px;
+      height: 280px;
+      margin-left: 17px;
+      cursor: pointer;
+    }
+
+    .land-card {
+      position: absolute;
+      bottom: 7px;
+      left: 17px;
+      background-color: rgb(114, 99, 232);
+      color: white;
+      padding: 12.8px 19.2px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .land-card:hover {
+      background-color: black;
+    }
+
+     /*Separate Delivery*/
+    .separate-del {
+      width: 380px;
+      height: 280px;
+      margin-left: 16px;
+    }
+
+    .delivery-card {
+      position: absolute;
+      bottom: 7px;
+      left: 414px;
+      background-color: rgb(114, 99, 232);
+      color: white;
+      padding: 12.8px 19.2px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .delivery-card:hover {
+      background-color: black;
+    }
+
+     /*Pet Transport*/
+    .pet-trp {
+      width: 380px;
+      height: 280px;
+      margin-left: 16px;
+    }
+
+    .pet-card {
+      position: absolute;
+      bottom: 7px;
+      right: 295px;
+      background-color: rgb(114, 99, 232);
+      color: white;
+      padding: 12.8px 19.2px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .pet-card:hover {
+      background-color: black;
+    }
+
+    /* Our offer section ends here */
+
+
+    /*Shipping Solutions section starts here*/
+
+    .shipping-soln {
+      position: relative;
+      background-color: black;
+      color: white;
+      height: 650px;
+      margin-top: 100px;
+      width: auto;
+      padding-bottom: 100px;
+    }
+
+    .shipping-soln h1 {
+     justify-self: center;
+     padding-top: 60px;
+     font-size: 45px;
+    }
+
+    .ship-cargo {
+      position: absolute;
+      display: inline-block;
+      left: 55px;
+      top: 180px;
+      width: 550px;
+      height: 350px;
+
+    }
+
+    .img-caption {
+      position: absolute;
+      top: 500px;
+      left: 55px;
+      font-size: 18px;
+      line-height: 22px;
+      background-color: rgb(119, 119, 112);
+      width: 510px;
+      padding: 20px 20px;
+    }
+
+    .article {
+      position: absolute;
+      width: 550px;
+      margin-left:640px;
+      font-size: 19px;
+      top: 160px;
+      line-height: 27px;
+      
+    }
+
+    .article p {
+      color: rgb(119, 119, 112);
+    }
+
+    /* Shipping solutions section ends here */
+
+
+    /* Objective section starts here */
+
+    .obj-section {
+      background-color: #777770;
+      display: flex;
+      padding-bottom: 140px;
+    }
+
+    .obj-img {
+      margin-left: 70px;
+      margin-top: 70px;
+      width: 520px;
+      height: 450px;
+      border-radius: 6px;
+    }
+
+    .obj-text {
+      width: 550px;
+      font-size: 19px;
+      margin-left: 75px;
+      margin-top: 50px;
+    }
+
+    .obj-text h1 {
+      line-height: 45px;
+      color: white;
+      padding-bottom: 23px;
+    }
+
+    .obj-text p {
+      line-height: 27px;
+      text-align: start;
+    }
+
+    .obj-text button {
+      background-color: black;
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+      padding: 12px;
+      cursor: pointer;
+    }
+
+    .obj-text button:hover {
       color: rgb(114, 99, 232);
     }
