@@ -590,14 +590,17 @@
     padding-left: 40px
   }
 
-  .ins-text button {
+  .ship-btn {
     background-color: rgb(114, 99, 232);
     color: white;
     font-weight: bolder;
-    font-size: 15px;
-    padding: 8px;
+    font-size: 17px;
     border: none;
     border-radius: 7px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin: 0;
+   
     cursor: pointer;
   }
 
