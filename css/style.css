@@ -607,3 +607,22 @@
   .ins-text button:hover {
     background-color: #6d6d67;
   }
+/* Insight section ends here */
+
+/* Footnote setion begins here */
+
+.footnote-section {
+  background-color: black;
+}
+
+.ft-header {
+  color: #777770;
+}
+
+.ft-desc-div {
+  
+}
+.ft-p {
+  color: white;
+  display: flex;
+}
