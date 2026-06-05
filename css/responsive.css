@@ -1,15 +1,21 @@
  /* MEDIA QUERIES */
+
+ /* Home Page */
  
 @media screen and (max-width: 768px) {
-
   .top-nav {
-    color: black;
+    color: rgb(255, 255, 255);
     margin-left: 0;
     flex-wrap: wrap;
     justify-content: center;
     gap: 12px;
     padding-top: 30px;
   }
+
+  .top-nav a {
+      text-decoration: none;
+      color: white;
+    }
 
   .logo {
     width: 50px;
@@ -24,7 +30,7 @@
     padding-top: 80px;
   }
 
-  .top-image {
+  .top-image, .abt-us-img {
     height: auto;
     min-height: 500px;
     display: flex;
@@ -239,8 +245,48 @@
   .footnote-section {
     padding-right: 20px;
   }
+
+
+  /* About Page Media Queries Begin here */
+
+  .abt-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .abt-card, .warehouse-img {
+    width: 90%;
+  }
+
+  .choice-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .choice-text, .adv-text {
+    width: 80%;
+    margin-left: 15%;
+    text-align: left;
+  }
+
+  .img-text-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .adv-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
+  .adv-img {
+    width: 87%;
+  }
+}
+
+/* ------------- */
+/* MOBILE */
+/* -------------*/
 @media screen and (max-width: 480px) {
 
   .top-nav {
@@ -252,8 +298,14 @@
     font-size: 20px;
     padding: 20px 15px;
     padding-top: 70px;
-    width: 400px;
+    width: 100%;
   }
+
+  .top-nav, .top-nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+    }
 
   .card-1, .card-2, .card-3, .card-4 {
     width: 80%;
@@ -286,5 +338,29 @@
 
   .ft-p {
     width: 100%;
+  }
+/* Home Page Media Queries end here */
+
+
+/* About Page Media Queries begin here */
+
+.choice-text h2 {
+    width: 100%;
+    line-height: 45px;
+  }
+
+  .choice-text {
+  margin-left: 0;
+  width: 90%;
+  padding: 0 15px;
+}
+
+  .adv-img {
+    margin-left: 30px;
+    width: 90%;
+  }
+  .adv-text {
+    margin-left: 30px;
+    width: 90%;
   }
 }
