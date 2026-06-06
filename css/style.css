@@ -1076,10 +1076,14 @@
 
   /* Prompt Delivery section begins here */
 
+  .delv-section {
+    padding: 60px 0;
+  }
+
   .delv-container {
     display: flex;
     flex-direction: row;
-    gap: 250px;
+    gap: 450px;
   }
 
   .delv-container h2 {
