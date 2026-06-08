@@ -1,7 +1,130 @@
  /* MEDIA QUERIES */
 
  /* Home Page */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  .top-image {
+    height: 500px;
+    min-height: 1000px;
+    width: 130vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 120px;
+  }
+
+   .header {
+    font-size: 40px;
+    padding: 60px 30px;
+    padding-top: 120px;
+    width: 70%;
+  }
+
+   .text-box {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 55%;
+    margin-top: 0;
+  }
+
+  .track-btn {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    bottom: auto;
+  }
+
+  .card-1, .card-2, .card-3, .card-4 {
+    position: relative;
+    bottom: auto;
+    left: auto !important;   
+    right: auto !important; 
+    width: calc(50% - 20px);
+    height: auto;
+    padding: 20px;
+    margin: 8px;
+    justify-content: center;
+  }
+
+  .card-1 h2, .card-2 h2,
+  .card-3 h2, .card-4 h2 {
+    padding: 20px;
+    white-space: normal;
+    font-size: 18px;
+    text-align: center;
+  }
+
+   .offer-section {
+    margin-top: 80px;
+  }
+
+   .offer-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .storage-img, .cargo-img, .air-cargo,
+  .land-trp, .separate-del, .pet-trp {
+    width: 160vw;
+    height: 400px;
+    margin: 8px;
+    object-fit: cover;
+  }
+
+  .storage-card, .cargo-card, .air-card,
+  .land-card, .delivery-card, .pet-card {
+    position: relative;
+    top: auto; left: auto;
+    right: auto; bottom: auto;
+    width: 95%;
+    margin: 0 auto 16px;
+  }
+
+   .shipping-soln {
+    height: auto;
+    padding: 40px 30px 60px;
+    width: 130vw;
+  }
+  
+  .ship-cargo {
+    position: relative;
+    top: auto; left: auto;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+   .img-caption {
+    position: relative;
+    top: auto; left: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .article {
+    position: relative;
+    width: 100%;
+    margin-left: 0;
+    top: auto;
+    padding: 0 20px;
+  }
+}
+
  
+/* TABLET */
 @media screen and (max-width: 768px) {
   .top-nav {
     color: rgb(255, 255, 255);

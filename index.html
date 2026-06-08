@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Swift shipping site</title>
+  <title>Swift Shipping | Home</title>
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/responsive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +21,26 @@
       <ul class="top-nav">
          <li><a href="/index.html">HOME</a></li>
           <li><a href="/about-us.html">ABOUT US</a></li>
-          <li>SERVICES</li>
+
+          <li class="dropdown">
+
+            <label for="toggle" class="dropdown-toggle">
+            SERVICES <i class="fa-solid fa-caret-down"></i>
+            </label>
+
+             <input type="checkbox" id="toggle">
+
+
+              <div class="dropdown-menu">
+                <a href="/services/air-freight.html">Air Freight</a>
+                <a href="/services/ocean-freight.html">Ocean Freight</a>
+                <a href="#">Land Transport</a>
+                <a href="#">Storage Facility</a>
+                <a href="#">Pet Transport</a>
+                <a href="#">Separate Delivery</a>
+              </div>
+
+          </li>
           <li>TRACKING</li>
           <li>FAQs</li>
           <li>CONTACT US</li>
@@ -40,26 +59,29 @@
         <img src="/images/logo.png" alt="logo" class="logo">
       </div>
 
-      <div>
+      <div class="cards-container">
+
         <div class="card-1">
-        <h2>Logistics Network</h2>
-        <div class="learn-more">Learn More &rarr;</div>
-      </div>
+          <h2>Logistics Network</h2>
+          <div class="learn-more">Learn More &rarr;</div>
+        </div>
 
-      <div class="card-2">
-        <h2>Dispersion</h2>
-        <div class="learn-more">Learn More &rarr;</div>
-      </div>
+        <div class="card-2">
+          <h2>Dispersion</h2>
+          <div class="learn-more">Learn More &rarr;</div>
+        </div>
 
-      <div class="card-3">
-        <h2>Fleet Express</h2>
-        <div class="learn-more">Learn More &rarr;</div>
-      </div>
+        <div class="card-3">
+          <h2>Fleet Express</h2>
+          <div class="learn-more">Learn More &rarr;</div>
+        </div>
 
-      <div class="card-4">
-        <h2>Mobility</h2>
-        <div class="learn-more">Learn More &rarr;</div>
+        <div class="card-4">
+          <h2>Mobility</h2>
+          <div class="learn-more">Learn More &rarr;</div>
+        </div>
       </div>
+      
     </nav>
   </section>
 

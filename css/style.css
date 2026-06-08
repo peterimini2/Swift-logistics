@@ -1,10 +1,11 @@
   body {
     font-family: Poppins, sans-serif;
-    background-color: white;
-    max-width: 1400px;
+    max-width: 100%;
     margin: 0 auto;
+    box-sizing: border-box;
   }
 
+  /* Navigation */
  .top-nav {
       display: flex;
       flex-wrap: wrap;
@@ -23,7 +24,51 @@
       color: white;
     }
 
-    ul :hover {
+    .fa-caret-down {
+      color: var(--bg-color);
+      background: none;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      left: 0;
+      top: 40px;
+      background: white;
+      min-width: 250px;
+      height: 360px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+
+    .dropdown-menu a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      line-height: 18px;
+      margin-top: 15px;
+    }
+
+    #toggle {
+      display: none;
+    }
+
+    #toggle:checked ~ .dropdown-menu {
+      display: block;
+    }
+
+    .dropdown-toggle {
+      cursor: pointer;
+    }
+
+    .top-nav li:hover {
       text-decoration: underline;
       text-decoration-color: rgb(114, 99, 232);
       font-weight: bold;
@@ -43,27 +88,26 @@
       color: rgb(114, 99, 232);
       display: flex;
       flex-wrap: wrap;
-      padding: 100px;
-      padding-top: 155px; 
+      padding: 80px;
       text-align: left;
-      width: 800px;
+      width: 70%;
       font-weight: bold;
     }
 
     .top-image {
       background: url(/images/slider-2.jpg) top no-repeat;
+      width: 100%;
       position: relative;  
-      height: 1000px;
-      margin-left: -8px;
-      margin-right: -8px;
-      margin-top: -20px;
+      object-fit: cover;
+      height: 950px;
+      margin-top: -10px;
     }
 
     .text-box {
       padding: 20px;
-      width: 320px;
-      position: absolute;
-      top: 510px;
+      width: 25%;
+      position: relative;
+      top: auto;
       left: 150px;
       border-radius: 6px;
     }
@@ -72,53 +116,40 @@
       background-image: linear-gradient(to right, #777770, #151515);
       padding: 15px 16px;
       position: absolute;
-      top: 514px;
+      top: 500px;
       border-radius: 8px;
       left: 450px;
-      width: 225px;
+      width: 20%;
       font-size: 14px;
       font-weight: bold;
       color: white;
       text-decoration: none;
     }
     
+    
     .track-btn:hover {
       color: rgb(114, 99, 232);
     }
 
     /* cards row */
-    .card-1 {
-      left: 50px;
+
+    .cards-container {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      margin-left: 50px;
+      margin-top: 350px;
     }
 
-    .card-1 h2 {
+    .card-1 h2,
+    .card-2 h2,
+     .card-4 h2  {
       padding: 40px 90px;
-    }
-
-    .card-2 {
-      left: 350px;
-    }
-
-    .card-2 h2 {
-      padding: 40px 90px;
-    }
-
-    .card-3 {
-      right: 355px;
     }
 
     .card-3 h2 {
       padding: 40px 65px;
       white-space: nowrap;
-      
-    }
-
-    .card-4 {
-      right: 55px;
-    }
-
-    .card-4 h2 {
-      padding: 40px 90px;
     }
 
     .card-1,
@@ -126,14 +157,13 @@
     .card-3,
     .card-4 {
       background-color: rgb(114, 99, 232);
-      position: absolute;
+      position: relative;
       height: 185px;   
       width: 260px;  
       font-weight: bolder;
       font-size: 15px;
       display: flex;
       border-radius: 10px;
-      bottom: -110px;
     }
 
 
@@ -191,10 +221,6 @@
       cursor: pointer;
     }
 
-    .storage-card:hover {
-      background-color: black;
-    }
-
      /*Maritime Cargo Transport*/
     .cargo-img {
      width: 380px;
@@ -213,10 +239,6 @@
       cursor: pointer;
     }
 
-    .cargo-card:hover {
-      background-color: black;
-    }
-
      /*Air Cargo*/
     .air-cargo {
       width: 380px;
@@ -233,10 +255,6 @@
       padding: 12.8px 19.2px;
       font-weight: bold;
       cursor: pointer;
-    }
-
-    .air-card:hover {
-      background-color: black;
     }
 
      /*Land Transport*/
@@ -258,10 +276,6 @@
       cursor: pointer;
     }
 
-    .land-card:hover {
-      background-color: black;
-    }
-
      /*Separate Delivery*/
     .separate-del {
       width: 380px;
@@ -278,10 +292,6 @@
       padding: 12.8px 19.2px;
       font-weight: bold;
       cursor: pointer;
-    }
-
-    .delivery-card:hover {
-      background-color: black;
     }
 
      /*Pet Transport*/
@@ -302,7 +312,12 @@
       cursor: pointer;
     }
 
-    .pet-card:hover {
+    .pet-card:hover,
+    .storage-card:hover,
+    .cargo-card:hover,
+    .air-card:hover,
+    .land-card:hover,
+    .delivery-card:hover {
       background-color: black;
     }
 
@@ -501,10 +516,8 @@
     }
 
     .text {
-      padding-top: 10px;
-      padding-right: 300px;
-      padding-bottom: 10px;
-      padding-left: 10px;
+      width: 100%;
+      padding: 10px;
       margin-bottom: 15px;
     }
 
@@ -543,7 +556,7 @@
   }
 
   .map-div {
-    width: 120%;
+    width: 100%;
     height: 500px;
     vertical-align: middle;
   }
@@ -1011,6 +1024,7 @@
 
   /* Description section ends here */
 
+
   /* Freight Services section begins here */
 
   .frt-services-sect {
@@ -1104,3 +1118,16 @@
       background-color: var(--secondary-text-color);
     }
 
+    /* Air Freight page ends here*/
+
+
+    /* Ocean Freight page  begins here*/
+
+    .ocean-freight {
+      background: url(/images/shipping15.jpeg) top no-repeat;
+      width: 100%;
+      position: relative;  
+      object-fit: cover;
+      height: 600px;
+      margin-top: -10px;
+    }
