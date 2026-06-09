@@ -1030,11 +1030,16 @@
   .frt-services-sect {
     background-color: black;
     padding-bottom: 70px;
+    padding-top: 30px;
   }
 
-  .frt-services-sect p,
   .frt-services-sect h2 {
     color: var(--secondary-text-color);
+    text-align: center;
+  }
+
+  .frt-services-sect p {
+    color: rgb(202, 202, 202);
     text-align: center;
   }
 
@@ -1085,10 +1090,10 @@
     cursor: pointer;
   }
 
-  /* Freight Services section ends here */
+/* Freight Services section ends here */
 
 
-  /* Prompt Delivery section begins here */
+/* Prompt Delivery section begins here */
 
   .delv-section {
     padding: 60px 0;
@@ -1101,8 +1106,8 @@
   }
 
   .delv-container h2 {
-    margin-left: 100px;
-    font-size: x-large;
+    margin-left: 80px;
+    font-size: xx-large;
   }
 
   .delv-btn {
@@ -1118,10 +1123,10 @@
       background-color: var(--secondary-text-color);
     }
 
-    /* Air Freight page ends here*/
+  /* Air Freight page ends here*/
 
 
-    /* Ocean Freight page  begins here*/
+  /* Ocean Freight page  begins here*/
 
     .ocean-freight {
       background: url(/images/shipping15.jpeg) top no-repeat;
@@ -1129,5 +1134,55 @@
       position: relative;  
       object-fit: cover;
       height: 600px;
-      margin-top: -10px;
+      padding-top: 2px;
     }
+
+    .ocean-freight-desc {
+      width: 95%;
+      margin-left: 10px;
+      margin-top: 80px;
+      line-height: 30px;
+    }
+
+    .ocean-freight-desc p,
+    .ocean-freight-desc h2 {
+      margin-left: 40px;
+    }
+
+    .ocean-freight-desc h2 {
+      font-size: xx-large;
+    }
+
+    .ocean-faqs-img {
+    width: 50%;
+  }
+
+    .ocean-faqs-img img {
+    width: 87%;
+    height: 105%;
+    border-radius: 6px;
+  }
+
+  /* Ocean freight page ends here */
+
+
+  /* Land Transport page begins here */
+
+  .land-trp-img {
+      background: url(/images/shipping11.png) top no-repeat;
+      width: 100%;
+      position: relative;  
+      background-size: cover;
+      height: 600px;
+      padding-top: 2px;
+    }
+
+  .land-faqs-img {
+    width: 50%;
+  }
+
+   .land-faqs-img img {
+    width: 87%;
+    height: 105%;
+    border-radius: 6px;
+  }
