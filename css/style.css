@@ -1329,12 +1329,10 @@
   }
 
   .downloads-div {
+    margin-top: 22px;
     background-color: black;
     color: white;
-    width: 20%;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    width: 23%;
   }
 
   .downloads-div h2 {
@@ -1343,17 +1341,15 @@
   }
 
   .downloads-div ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     list-style-type: none;
     cursor: pointer;
     width: 100%;
     line-height: 40px;
-  }
-
-   .downloads-div li {
-    text-align: left;
     margin: 0;
-    padding: 0;
-   }
+  }
 
   .downloads-div li:hover {
     color: var(--secondary-text-color);
@@ -1361,6 +1357,7 @@
 
   .consign-div {
     width: 80%;
+    max-height: 380px;
     margin-left: 50px;
   }
 
@@ -1369,3 +1366,53 @@
     font-size: large;
     width: 100%;
   }
+
+   .track-text-box {
+      padding: 16px;
+      width: 40%;
+      position: relative;
+      top: auto;
+      left: 0;
+      border-radius: 7px;
+    }
+
+    .tracker-btn {
+      background-image: linear-gradient(to right, var(--bg-color), #151515);
+      padding: 13px 6px;
+      position: absolute;
+      top: 128%;
+      border-radius: 8px;
+      left: 50%;
+      width: 17%;
+      font-size: 12px;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+    }
+    
+    
+    .tracker-btn:hover {
+      color: var(--secondary-text-color)
+    }
+
+    .outline-div {
+      outline: solid black 1px;
+      width: 90%;
+      box-sizing: border-box;
+      padding: 8px 10px 30px 20px;
+    }
+
+    .monitor-div h2 {
+      margin-left: 20px;
+    }
+
+    .monitor-div li {
+      color: var(--secondary-text-color);
+      margin-left: 0;
+      line-height: 30px;
+    }
+
+    .track-desc-sect {
+      margin-bottom: 400px;
+      margin-top: 20px;
+    }
