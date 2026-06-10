@@ -1298,4 +1298,74 @@
       font-weight: bold;
     }
 
-   
+/* -------------------------------- */
+/* SERVICES PAGE ENDS HERE */
+/* -------------------------------- */
+
+
+/* -------------------------------- */
+  /* TRACKING PAGE STARTS HERE */
+/* -------------------------------- */
+
+   .tracking-bg {
+      background: black;
+      width: 100%;
+      position: relative;  
+      background-size: cover;
+      height: 480px;
+      padding-top: 2px;
+    }
+
+    .track-hd {
+     text-align: center;
+     color:white;
+     margin-top: 15%;
+     font-size: x-large;
+  }
+
+  .track-parent-container {
+    display: flex;
+    padding: 60px;
+  }
+
+  .downloads-div {
+    background-color: black;
+    color: white;
+    width: 20%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .downloads-div h2 {
+    color: var(--bg-color);
+    text-align: center;
+  }
+
+  .downloads-div ul {
+    list-style-type: none;
+    cursor: pointer;
+    width: 100%;
+    line-height: 40px;
+  }
+
+   .downloads-div li {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+   }
+
+  .downloads-div li:hover {
+    color: var(--secondary-text-color);
+  }
+
+  .consign-div {
+    width: 80%;
+    margin-left: 50px;
+  }
+
+  .consign-div p {
+    color: var(--bg-color);
+    font-size: large;
+    width: 100%;
+  }
