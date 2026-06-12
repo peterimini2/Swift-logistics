@@ -41,7 +41,7 @@
       top: 40px;
       background: white;
       min-width: 250px;
-      height: 360px;
+      max-height: 360px;
       box-shadow: 0 5px 15px rgba(0,0,0,0.2);
       overflow: hidden;
     }
@@ -76,7 +76,7 @@
     }
 
     .logo {
-      width: 70px;
+      width: 4rem;
       position: absolute;
       top: 9px;
       left: 40px;
@@ -88,7 +88,7 @@
       color: rgb(114, 99, 232);
       display: flex;
       flex-wrap: wrap;
-      padding: 80px;
+      padding: 5rem;
       text-align: left;
       width: 70%;
       font-weight: bold;
@@ -97,9 +97,6 @@
     .top-image {
       background: url(/images/slider-2.jpg) top no-repeat;
       width: 100%;
-      position: relative;  
-      object-fit: cover;
-      height: 950px;
       margin-top: -10px;
     }
 
@@ -108,7 +105,7 @@
       width: 25%;
       position: relative;
       top: auto;
-      left: 150px;
+      left: 9rem;
       border-radius: 6px;
     }
 
@@ -116,9 +113,9 @@
       background-image: linear-gradient(to right, #777770, #151515);
       padding: 15px 16px;
       position: absolute;
-      top: 500px;
+      top: 31.25rem;
       border-radius: 8px;
-      left: 450px;
+      left: 31.25em;
       width: 20%;
       font-size: 14px;
       font-weight: bold;
@@ -136,19 +133,20 @@
     .cards-container {
       display: flex;
       flex-direction: row;
-      gap: 30px;
-      margin-left: 50px;
-      margin-top: 350px;
+      max-width: 10rem;
+      gap: 36px;
+      margin-left: 2rem;
+      margin-top: 20rem;
     }
 
     .card-1 h2,
     .card-2 h2,
      .card-4 h2  {
-      padding: 40px 90px;
+      padding: 2.5rem 6rem;
     }
 
     .card-3 h2 {
-      padding: 40px 65px;
+      padding: 2.5rem 4rem;
       white-space: nowrap;
     }
 
@@ -158,8 +156,8 @@
     .card-4 {
       background-color: rgb(114, 99, 232);
       position: relative;
-      height: 185px;   
-      width: 260px;  
+      height: 11rem;   
+      width: 15rem;  
       font-weight: bolder;
       font-size: 15px;
       display: flex;
@@ -172,12 +170,10 @@
       align-self: center;
       left: 90px;
       top: 115px;
-      color: white;
-      opacity: 0;
+      color: rgb(156, 146, 146);
     }
 
     .learn-more:hover {
-      opacity: 1;
       cursor: pointer;
       color: white
     }
@@ -187,7 +183,7 @@
     /* Our Offer Section begins here */
 
     .offer-section {
-      margin-top: 250px;
+      margin-top: 15rem;
       position: relative;
     }
      .offer-header {
@@ -205,7 +201,7 @@
     /*Storage Facility*/
     .storage-img {
       position: relative;
-      width: 380px;
+      width: 23rem;
       height: 280px;
       margin-left: 17px;
     }
@@ -1099,7 +1095,7 @@
   .delv-container {
     display: flex;
     flex-direction: row;
-    gap: 450px;
+    gap: 400px;
   }
 
   .delv-container h2 {
@@ -1108,12 +1104,12 @@
   }
 
   .delv-btn {
-      background-color: var(--bg-color);
-      color: white;
-      font-weight: bold;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
+    background-color: var(--bg-color);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
     }
 
     .delv-btn:hover {
@@ -1586,4 +1582,8 @@ input[type="checkbox"] {
 
 .cont-btn a {
   text-decoration: none;
+}
+
+* {
+  outline: solid red 1px;
 }
