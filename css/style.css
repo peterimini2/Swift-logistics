@@ -1583,7 +1583,3 @@ input[type="checkbox"] {
 .cont-btn a {
   text-decoration: none;
 }
-
-* {
-  outline: solid red 1px;
-}
