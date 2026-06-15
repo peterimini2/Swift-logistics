@@ -225,55 +225,6 @@
     margin-top: 8rem;
   }
 
-  .offer-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-  }
-
-  .storage-img,
-  .cargo-img,
-  .air-cargo,
-  .land-trp,
-  .separate-del,
-  .pet-trp {
-    width: 90%;
-    height: 240px;
-  }
-
-  .storage-card { 
-    left: 1.1rem; 
-    top: 20rem;
-  }
-
-  .cargo-card {
-    left: 32.4rem; 
-    top: 20rem; 
-  }
-
-  .air-card { 
-    left: 1.1rem; 
-    top: 35.4rem;
-    width: 6.5rem
-  }
-
-  .land-card { 
-    top: 35.4rem; 
-    left: 32.4rem;
-    width: 7.5rem;
-    height: 24px;
-  }
-  .delivery-card { 
-    left: 1.1rem; 
-    right: 10px;
-    width: 10rem;
-    bottom: 7px; 
-  }
-  .pet-card { 
-    left: 32.4rem;
-    bottom: 7px; 
-  }
-
   /* Shipping Solutions */
   .shipping-soln {
     height: auto;
@@ -392,8 +343,8 @@
   .track-btn {
     position: relative;
     left: 0;
-    top: 20px;
-    width: 60%;
+    top: 5px;
+    width: 100%;
     margin: 20px auto;
     display: block;
     text-align: center;
@@ -444,32 +395,13 @@
     padding-bottom: 30px;
   }
 
-  .offer-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .storage-img,
-  .cargo-img,
-  .air-cargo,
-  .land-trp,
-  .separate-del,
-  .pet-trp {
-    width: 90%;
-    height: 220px;
-    margin: 0 0 50px 0;
-  }
-
   .storage-card,
-  .cargo-card,
-  .air-card,
   .land-card,
+  .pet-card,
   .delivery-card,
-  .pet-card {
-    left: 5%;
-    right: auto;
-    top: auto;
-    bottom: 60px;
+  .cargo-card,
+  .air-card {
+    width: auto;
   }
 
   /* Shipping Solutions */
@@ -492,7 +424,7 @@
   /* Objective Section */
   .obj-img {
     width: 90%;
-    height: 280px;
+    height: 420px;
   }
 
   .obj-text {
@@ -581,11 +513,11 @@
   }
 
   .text-box {
-    width: 95%;
+    width: 90%;
   }
 
   .track-btn {
-    width: 80%;
+    width: 90%;
     font-size: 12px;
     padding: 12px;
   }
@@ -611,24 +543,13 @@
     font-size: 1.8em;
   }
 
-  .storage-img,
-  .cargo-img,
-  .air-cargo,
-  .land-trp,
-  .separate-del,
-  .pet-trp {
-    width: 100%;
-    height: 180px;
-  }
-
   .storage-card,
-  .cargo-card,
-  .air-card,
   .land-card,
+  .pet-card,
   .delivery-card,
-  .pet-card {
-    font-size: 13px;
-    padding: 10px 14px;
+  .cargo-card,
+  .air-card {
+    width: auto;
   }
 
   /* Shipping solutions */
@@ -727,7 +648,7 @@
   /* About cards */
   .abt-card-container {
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     padding: 30px;
     gap: 20px;
   }
@@ -770,7 +691,7 @@
 
   .adv-img {
     width: 90%;
-    height: 320px;
+    height: 400px;
     margin: 40px auto 0;
   }
 
@@ -801,7 +722,7 @@
   /* About cards */
   .abt-card-container {
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     padding: 20px;
     gap: 15px;
   }
@@ -933,5 +854,346 @@
   .adv-text button {
     width: 100%;
     padding: 12px;
+  }
+}
+
+
+/* ==========================================================================
+   RESPONSIVE-SERVICES.CSS
+   Media queries for: Air Freight, Land Transport, Ocean Freight, Pet Transport
+   Append the contents of this file to the end of responsive.css
+   Breakpoints: 1024px (tablet), 768px (mobile), 480px (small mobile)
+
+   Shared selectors across these pages:
+   .freight-hd, .freight-desc, .ocean-freight-desc, .storage-desc,
+   .frt-services-sect, .faqs-parent-container, .faqs-container,
+   .faqs-img, .ocean-faqs-img, .land-faqs-img, .faqs-drpdown,
+   .faqs-sub-div, .faqs-btn, .delv-section, .delv-container,
+   .storage-img-container
+   ========================================================================== */
+
+
+/* ==========================================================================
+   SHARED: SERVICE PAGES (Air Freight, Land Transport, Ocean Freight,
+   Pet Transport, Storage Facility, Separate Delivery)
+   Covers hero banners, description blocks, FAQ/services sections,
+   and the "prompt delivery" CTA band
+   ========================================================================== */
+
+/* ---- 1024px: Tablet ---- */
+@media (max-width: 1024px) {
+
+  /* Hero banners */
+  .air-freight-img,
+  .ocean-freight,
+  .land-trp-img,
+  .pet-trp-img,
+  .storage-facility-img,
+  .separate-del-img {
+    height: 450px;
+  }
+
+  .freight-hd,
+  .delivery-hd {
+    margin-top: 22%;
+    font-size: 1.6rem;
+  }
+
+  /* Description sections */
+  .freight-desc,
+  .ocean-freight-desc,
+  .storage-desc,
+  .delivery-desc {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+  .freight-desc p,
+  .freight-desc h2,
+  .ocean-freight-desc p,
+  .ocean-freight-desc h2,
+  .storage-desc p,
+  .storage-desc h2,
+  .delivery-desc p,
+  .delivery-desc h2 {
+    margin-left: 0;
+  }
+
+  .freight-desc h2,
+  .ocean-freight-desc h2,
+  .storage-desc h2 {
+    font-size: 1.8rem;
+  }
+
+  /* FAQs / Services section */
+  .faqs-parent-container {
+    flex-direction: column;
+  }
+
+  .faqs-container,
+  .faqs-img,
+  .ocean-faqs-img,
+  .land-faqs-img {
+    width: 100%;
+  }
+
+  .faqs-drpdown {
+    width: 100%;
+    margin-left: 0;
+    box-sizing: border-box;
+    padding: 0 30px;
+  }
+
+  .faqs-img img,
+  .ocean-faqs-img img,
+  .land-faqs-img img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .ocean-faqs-img img,
+  .land-faqs-img img {
+    height: auto;
+  }
+
+  .frt-services-sect h2 {
+    font-size: 1.8rem;
+    padding: 0 20px;
+  }
+
+  /* Prompt delivery CTA */
+  .delv-container {
+    gap: 4rem;
+    align-items: center;
+    padding: 0 30px;
+  }
+
+  .delv-container h2 {
+    margin-left: 0;
+    font-size: 1.6rem;
+  }
+
+  /* Storage / Pet image gallery */
+  .storage-img-container {
+    flex-wrap: wrap;
+  }
+
+  .storage-img-container img {
+    width: 45%;
+    height: 220px;
+  }
+}
+
+
+/* ---- 768px: Mobile ---- */
+@media (max-width: 768px) {
+
+  /* Hero banners */
+  .air-freight-img,
+  .ocean-freight,
+  .land-trp-img,
+  .pet-trp-img,
+  .storage-facility-img,
+  .separate-del-img {
+    height: 320px;
+  }
+
+  .freight-hd,
+  .delivery-hd {
+    margin-top: 28%;
+    font-size: 1.3rem;
+  }
+
+  /* Description sections */
+  .freight-desc,
+  .ocean-freight-desc,
+  .storage-desc,
+  .delivery-desc {
+    width: 92%;
+    margin-top: 35px;
+    line-height: 24px;
+    font-size: 15px;
+  }
+
+  .freight-desc h2,
+  .ocean-freight-desc h2,
+  .storage-desc h2 {
+    font-size: 1.4rem;
+  }
+
+  .delivery-desc h2 {
+    font-size: 1.2rem;
+  }
+
+  .freight-desc ul,
+  .ocean-freight-desc ul {
+    padding-left: 20px;
+  }
+
+  /* FAQs / Services section */
+  .frt-services-sect {
+    padding-bottom: 40px;
+    padding-top: 20px;
+  }
+
+  .frt-services-sect h2 {
+    font-size: 1.4rem;
+    padding: 0 15px;
+  }
+
+  .frt-services-sect p {
+    font-size: 14px;
+  }
+
+  .faqs-drpdown {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .faqs-sub-div p {
+    font-size: 14px;
+  }
+
+  /* Prompt delivery CTA */
+  .delv-section {
+    padding: 40px 0;
+  }
+
+  .delv-container {
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: center;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .delv-container h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .delv-btn {
+    padding: 12px 24px;
+    width: 60%;
+  }
+
+  /* Storage / Pet image gallery */
+  .storage-img-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .storage-img-container img {
+    width: 85%;
+    height: 200px;
+    margin: 10px 0;
+  }
+}
+
+
+/* ---- 480px: Small Mobile ---- */
+@media (max-width: 480px) {
+
+  /* Hero banners */
+  .air-freight-img,
+  .ocean-freight,
+  .land-trp-img,
+  .pet-trp-img,
+  .storage-facility-img,
+  .separate-del-img {
+    height: 220px;
+  }
+
+  .freight-hd,
+  .delivery-hd {
+    margin-top: 30%;
+    font-size: 1.1rem;
+    padding: 0 10px;
+  }
+
+  /* Description sections */
+  .freight-desc,
+  .ocean-freight-desc,
+  .storage-desc,
+  .delivery-desc {
+    width: 94%;
+    margin-top: 25px;
+    line-height: 22px;
+    font-size: 13px;
+  }
+
+  .freight-desc h2,
+  .ocean-freight-desc h2,
+  .storage-desc h2 {
+    font-size: 1.2rem;
+  }
+
+  .delivery-desc h2 {
+    font-size: 1rem;
+  }
+
+  .freight-desc ul,
+  .ocean-freight-desc ul {
+    padding-left: 16px;
+    font-size: 13px;
+  }
+
+  /* FAQs / Services section */
+  .frt-services-sect h2 {
+    font-size: 1.1rem;
+  }
+
+  .faqs-drpdown {
+    width: 94%;
+  }
+
+  .faqs-sub-div p {
+    font-size: 12px;
+    margin-left: 6px;
+  }
+
+  .faqs-btn {
+    width: 28px;
+    font-size: 18px;
+  }
+
+  /* Prompt delivery CTA */
+  .delv-container h2 {
+    font-size: 1rem;
+  }
+
+  .delv-btn {
+    width: 80%;
+    font-size: 13px;
+  }
+
+  /* Storage / Pet image gallery */
+  .storage-img-container img {
+    width: 100%;
+    height: 170px;
+  }
+}
+
+
+/* ==========================================================================
+   LAND TRANSPORT PAGE SPECIFIC
+   ========================================================================== */
+
+/* ---- 1024px: Tablet ---- */
+@media (max-width: 1024px) {
+  .land-faqs-img img {
+    height: auto;
+  }
+}
+
+/* ---- 768px: Mobile ---- */
+@media (max-width: 768px) {
+  .freight-desc + section .faqs-drpdown {
+    margin-bottom: 20px;
   }
 }

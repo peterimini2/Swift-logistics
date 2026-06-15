@@ -194,117 +194,34 @@
     }
 
     .offer-container {
-      display:flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 15px;
+      margin: 0 18px;
     }
 
     /*Storage Facility*/
-    .storage-img {
-      position: relative;
-      width: 23rem;
-      height: 280px;
-      margin-left: 17px;
-    }
-
-    .storage-card {
-      position: absolute;
-      top: 362px;
-      left: 17px;
-      background-color: rgb(114, 99, 232);
-      color: white;
-      padding: 12.8px 19.2px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-
-     /*Maritime Cargo Transport*/
-    .cargo-img {
-     width: 380px;
-     height: 280px;
-     margin-left: 16px;
-    }
-
-    .cargo-card {
-      position: absolute;
-      top: 362px;
-      left: 413px;
-      background-color: rgb(114, 99, 232);
-      color: white;
-      padding: 12.8px 19.2px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-
-     /*Air Cargo*/
-    .air-cargo {
-      width: 380px;
-      height: 280px;
-      margin-left: 16px;
-    }
-
-    .air-card {
-      position: absolute;
-      top: 362px;
-      right: 340px;
-      background-color: rgb(114, 99, 232);
-      color: white;
-      padding: 12.8px 19.2px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-
-     /*Land Transport*/
-    .land-trp {
-      width: 380px;
-      height: 280px;
-      margin-left: 17px;
-      cursor: pointer;
-    }
-
-    .land-card {
-      position: absolute;
-      bottom: 7px;
-      left: 17px;
-      background-color: rgb(114, 99, 232);
-      color: white;
-      padding: 12.8px 19.2px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-
-     /*Separate Delivery*/
-    .separate-del {
-      width: 380px;
-      height: 280px;
-      margin-left: 16px;
-    }
-
-    .delivery-card {
-      position: absolute;
-      bottom: 7px;
-      left: 414px;
-      background-color: rgb(114, 99, 232);
-      color: white;
-      padding: 12.8px 19.2px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-
-     /*Pet Transport*/
+    .storage-img,
+    .cargo-img,
+    .air-cargo,
+    .land-trp,
+    .separate-del,
     .pet-trp {
-      width: 380px;
+      width: 100%;
       height: 280px;
-      margin-left: 16px;
     }
 
+    .storage-card,
+    .cargo-card,
+    .air-card,
+    .land-card,
+    .delivery-card,
     .pet-card {
-      position: absolute;
-      bottom: 7px;
-      right: 310px;
       background-color: rgb(114, 99, 232);
       color: white;
-      padding: 12.8px 19.2px;
+      padding: 12.8px;
       font-weight: bold;
+      width: 40%;
       cursor: pointer;
     }
 
@@ -507,6 +424,7 @@
     }
 
     .form-div {
+      width: 100%;
       margin-left: 75px;
       margin-top: 50px;
     }
