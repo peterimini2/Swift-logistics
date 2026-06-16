@@ -971,12 +971,7 @@
     width: 87%;
     border-radius: 6px;
   }
-
-  * {
-    outline: solid red 1px;
-  }
-
-
+  
   .faqs-drpdown {
     width: 85%;
     color: white;

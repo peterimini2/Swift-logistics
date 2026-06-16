@@ -1,517 +1,1174 @@
- /* MEDIA QUERIES */
 
- /* Home Page */
+/* ---- 1024px: Tablet ---- */
+@media (max-width: 1024px) {
 
-@media screen and (min-width: 769px) {
-
-  .top-image {
-    height: 500px;
-    min-height: 1000px;
-    width: 130vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 120px;
+  .logo {
+    width: 3.2rem;
+    top: 8px;
+    left: 20px;
   }
 
-   .header {
-    font-size: 40px;
-    padding: 60px 30px;
-    padding-top: 120px;
-    width: 70%;
+  .top-nav {
+    gap: 14px;
+    font-size: 0.9rem;
+    padding-top: 70px;
   }
 
-   .text-box {
-    position: relative;
-    top: auto;
-    left: auto;
-    width: 55%;
-    margin-top: 0;
+  .footnote-section {
+    padding-right: 50px;
+    padding-left: 30px;
   }
 
-  .track-btn {
-    position: relative;
-    top: auto;
-    left: auto;
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  .cards-container {
-    display: flex;
+  .foot-coln {
     flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    position: relative;
-    bottom: auto;
+    gap: 30px;
   }
 
-  .card-1, .card-2, .card-3, .card-4 {
-    position: relative;
-    bottom: auto;
-    left: auto !important;   
-    right: auto !important; 
-    width: calc(50% - 20px);
-    height: auto;
-    padding: 20px;
-    margin: 8px;
-    justify-content: center;
-  }
-
-  .card-1 h2, .card-2 h2,
-  .card-3 h2, .card-4 h2 {
-    padding: 20px;
-    white-space: normal;
-    font-size: 18px;
-    text-align: center;
-  }
-
-   .offer-section {
-    margin-top: 80px;
-  }
-
-   .offer-container {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-
-  .storage-img, .cargo-img, .air-cargo,
-  .land-trp, .separate-del, .pet-trp {
-    width: 160vw;
-    height: 400px;
-    margin: 8px;
-    object-fit: cover;
-  }
-
-  .storage-card, .cargo-card, .air-card,
-  .land-card, .delivery-card, .pet-card {
-    position: relative;
-    top: auto; left: auto;
-    right: auto; bottom: auto;
-    width: 95%;
-    margin: 0 auto 16px;
-  }
-
-   .shipping-soln {
-    height: auto;
-    padding: 40px 30px 60px;
-    width: 130vw;
-  }
-  
-  .ship-cargo {
-    position: relative;
-    top: auto; left: auto;
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-
-   .img-caption {
-    position: relative;
-    top: auto; left: auto;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .article {
-    position: relative;
-    width: 100%;
+  .coln-2,
+  .coln-3 {
     margin-left: 0;
-    top: auto;
-    padding: 0 20px;
+  }
+
+  .coln-2-h3,
+  .coln-3-h3,
+  .coln-4-h3,
+  .coln-3-p,
+  .coln-4-p {
+    margin-left: 0;
+  }
+
+  .email-text {
+    padding-right: 120px;
   }
 }
 
- 
-/* TABLET */
-@media screen and (max-width: 768px) {
-  .top-nav {
-    color: rgb(255, 255, 255);
-    margin-left: 0;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-    padding-top: 30px;
+
+/* ---- 768px: Mobile ---- */
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
   }
 
-  .top-nav a {
-      text-decoration: none;
-      color: white;
-    }
-
   .logo {
-    width: 50px;
-    top: 20px;
+    width: 2.8rem;
+    top: 8px;
     left: 16px;
   }
 
-  /* Header */
-  .header {
-    font-size: 30px;
-    padding: 40px 20px;
-    padding-top: 80px;
-  }
-
-  .top-image, 
-  .abt-us-img,
-  .air-freight-img {
-    height: auto;
-    min-height: 500px;
-    display: flex;
+  /* Stacked vertical mobile menu */
+  .top-nav {
     flex-direction: column;
     align-items: center;
-    padding-bottom: 100px;
+    gap: 10px;
+    padding-top: 65px;
+    padding-bottom: 15px;
+    width: 90%;
   }
 
-  .text-box {
-    position: relative;
-    top: auto;
-    left: auto;
-    width: 80%;
-    margin-top: 20px;
-  }
-
-  .track-btn {
-    position: relative;
-    top: auto;
-    left: auto;
-    width: 80%;
-    margin-top: 10px;
+  .top-nav li {
+    width: 100%;
     text-align: center;
   }
 
-  /* Cards row */
-  .card-1, .card-2, .card-3, .card-4 {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    right: auto;
-    width: 50%;
-    height: auto;
-    padding: 20px;
-    margin: 8px;
+  .dropdown {
+    width: 100%;
+    text-align: center;
   }
 
-  .card-1 h2, .card-2 h2, .card-3 h2, .card-4 h2 {
-    padding: 0;
-    white-space: normal;
-    font-size: 14px;
+  .dropdown-menu {
+    position: static;
+    width: 100%;
+    min-width: 0;
+    text-align: center;
+    box-shadow: none;
   }
 
-  /* Offer section */
-  .offer-section {
-    margin-top: 120px;
+  .dropdown-menu a {
+    margin-top: 0;
+    padding: 8px;
   }
 
-  .offer-container {
+  /* Footer column stacking */
+  .foot-coln {
     flex-direction: column;
-    align-items: center;
+    gap: 10px;
   }
 
-  .storage-img, .cargo-img, .air-cargo,
-  .land-trp, .separate-del, .pet-trp {
-    width: 100vw;
-    height: 250px;
+  .coln-1,
+  .coln-2,
+  .coln-3,
+  .coln-4 {
     margin-left: 0;
-    object-fit: cover;
+    width: 100%;
   }
 
-  .storage-card, .cargo-card, .air-card,
-  .land-card, .delivery-card, .pet-card {
-    position: relative;
-    top: auto;
-    left: auto;
-    right: auto;
-    bottom: auto;
-    width: 95vw;
-    margin: 0 auto 20px;
+  .coln-2-h3,
+  .coln-3-h3,
+  .coln-4-h3,
+  .coln-3-p,
+  .coln-4-p {
+    margin-left: 0;
+  }
+
+  .coln-2 ul {
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .ft-p {
+    width: 100%;
+  }
+
+  .email-text {
+    width: 80%;
+    padding-right: 60px;
+    box-sizing: border-box;
+  }
+
+  .copyright {
+    margin-top: 60px;
+    font-size: 12px;
+  }
+}
+
+
+/* ---- 480px: Small Mobile ---- */
+@media (max-width: 480px) {
+
+  .logo {
+    width: 2.2rem;
+    top: 6px;
+    left: 10px;
+  }
+
+  .top-nav {
+    font-size: 0.85rem;
+    gap: 8px;
+    padding-top: 55px;
+  }
+
+  .ft-header {
+    font-size: 24px;
+  }
+
+  .brands {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}
+
+
+/* ==========================================================================
+   HOME PAGE (index.html)
+   ========================================================================== */
+
+/* ---- 1024px: Tablet ---- */
+@media (max-width: 1024px) {
+
+  /* First section / Hero */
+  .header {
+    font-size: 34px;
+    padding: 8rem 2rem 2rem 2rem;
+    width: 90%;
+  }
+
+  .text-box {
+    width: 50%;
+    left: 12rem;
+  }
+
+  .track-btn {
+    left: 20rem;
+    top: 29rem;
+    width: 30%;
+  }
+
+  /* Cards row */
+  .cards-container {
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-left: 4rem;
+    margin-top: 10rem;
+    margin-right: 2rem;
+    gap: 25px;
+  }
+
+  .card-1, .card-2, .card-3, .card-4 {
+    width: 45%;
+    height: 9rem;
+  }
+
+  .card-1 h2, .card-2 h2, .card-4 h2 {
+    padding: 1.8rem 3rem;
+    font-size: 1rem;
+  }
+
+  .card-3 h2 { 
+    padding: 1.8rem 2rem;
+    font-size: 1rem;
+  }
+
+  .learn-more {
+    left: 60px;
+    top: 95px;
+  }
+
+  /* Our Offer section */
+  .offer-section {
+    margin-top: 8rem;
   }
 
   /* Shipping Solutions */
   .shipping-soln {
     height: auto;
-    padding: 40px 20px 60px;
-  }
-
-  .shipping-soln h1 {
-    font-size: 30px;
-    text-align: center;
+    padding-bottom: 60px;
   }
 
   .ship-cargo {
     position: relative;
-    top: auto;
-    left: auto;
-    width: 100%;
+    left: 0;
+    top: 0;
+    width: 90%;
     height: auto;
+    margin: 60px auto 0;
     display: block;
-    margin-bottom: 20px;
   }
 
   .img-caption {
     position: relative;
-    top: auto;
-    left: auto;
-    width: 94%;
-    margin-bottom: 20px;
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin: 10px auto;
   }
 
   .article {
     position: relative;
-    width: 100%;
-    margin-left: 0;
-    top: auto;
-    font-size: 16px;
-    padding: 0 10px;
+    width: 90%;
+    margin: 30px auto 0;
+    top: 0;
   }
 
-  /* Objective section */
+  /* Objective Section */
   .obj-section {
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
     padding-bottom: 60px;
   }
 
   .obj-img {
     width: 90%;
-    height: auto;
-    margin-left: 0;
-    margin-top: 30px;
+    height: 450px;
+    margin: 40px auto 0;
   }
 
   .obj-text {
     width: 90%;
-    margin-left: 0;
-    margin-top: 30px;
+    margin: 30px auto 0;
   }
 
-  /* Logistics section */
+  /* Logistics Solutions */
   .sub-div {
-    flex-direction: column;
-    padding: 30px 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 30px;
   }
 
-  .icon-container {
-    width: 100%;
-  }
-
-  .info-ready {
-    width: 50%;
-    font-size: 22px;
-  }
-
+  .icon-container,
   .form-div {
+    width: 100%;
     margin-left: 0;
-    margin-top: 30px;
   }
 
-  .text {
-    padding-right: 10px;
-    width: 95%;
+  .form-div input {
+    width: 97%;
   }
 
   /* Map section */
   .map-div {
-    width: 100%;
+    height: 350px;
   }
 
   /* Testimonials */
   .test-sub-div {
     flex-wrap: wrap;
-    padding: 20px 10px;
+    padding: 20px;
+    justify-content: center;
   }
 
   .comment-div {
-    width: 100%;
-    margin: 8px 0;
-    padding-right: 20px;
+    width: 45%;
+    margin: 10px;
+    padding-right: 25px;
   }
 
   /* Insights */
   .ins-text {
     flex-direction: column;
     gap: 20px;
+    align-items: flex-start;
   }
 
-  .ship-btn {
-    padding: 10px 0;
-    width: 95%;
-  }
-
-  /* Footer */
-  .foot-coln {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .coln-2, .coln-3 {
-    margin-left: 0;
-  }
-
-  .coln-2-h3, .coln-3-h3,
-  .coln-4-h3, .coln-3-p,
-  .coln-4-p {
-    margin-left: 0;
-  }
-
-.coln-2-ul,
-.coln-3-ul {
-  margin-left: 0;
-  padding-left: 0;
-}
-
-  .email-text {
-    margin-left: 0;
-    padding-right: 60px;
-    width: 50%;
-  }
-
-  .footnote-section {
+  .ins-head-div {
+    padding-left: 20px;
     padding-right: 20px;
   }
+}
 
 
-  /* About Page Media Queries Begin here */
+/* ---- 768px: Mobile ---- */
+@media (max-width: 768px) {
 
-  .abt-card-container {
-    display: flex;
-    flex-direction: column;
+  /* First section / Hero */
+  .header {
+    font-size: 26px;
+    padding: 7rem 1.5rem 1.5rem 1.5rem;
+    text-align: center;
+    justify-content: center;
   }
 
-  .abt-card, .warehouse-img {
+  .text-box {
+    width: 80%;
+    left: 0;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .track-btn {
+    position: relative;
+    left: 0;
+    top: 5px;
+    width: 100%;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+  }
+
+  .track-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Cards row */
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 3rem;
+    gap: 15px;
+    padding: 0 1rem;
+  }
+
+  .card-1, .card-2, .card-3, .card-4 {
+    width: 90%;
+    height: 8rem;
+  }
+
+  .card-1 h2, .card-2 h2, .card-3 h2, .card-4 h2 {
+    padding: 1.5rem 2rem;
+    white-space: normal;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .learn-more {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 90px;
+  }
+
+  /* Our Offer section */
+  .offer-section {
+    margin-top: 4rem;
+  }
+
+  .offer-header {
+    font-size: 2.2em;
+    padding-bottom: 30px;
+  }
+
+  .storage-card,
+  .land-card,
+  .pet-card,
+  .delivery-card,
+  .cargo-card,
+  .air-card {
+    width: auto;
+  }
+
+  /* Shipping Solutions */
+  .shipping-soln h1 {
+    font-size: 32px;
+    text-align: center;
+    padding: 30px 1rem 0;
+  }
+
+  .ship-cargo,
+  .img-caption,
+  .article {
     width: 90%;
   }
 
-  .choice-container {
-    display: flex;
+  .article {
+    font-size: 16px;
+  }
+
+  /* Objective Section */
+  .obj-img {
+    width: 90%;
+    height: 420px;
+  }
+
+  .obj-text {
+    width: 90%;
+    font-size: 17px;
+  }
+
+  .obj-text h1 {
+    font-size: 1.6rem;
+    line-height: 36px;
+  }
+
+  /* Logistics Solutions */
+  .logistics-section {
+    padding: 30px 20px 50px;
+  }
+
+  .logistics-section h2 {
+    font-size: 28px;
+  }
+
+  .info-ready {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .parcel-div,
+  .client-div,
+  .branch-div {
+    flex-wrap: wrap;
+  }
+
+  .form-div {
+    margin-top: 30px;
+  }
+
+  /* Map section */
+  .map-section {
+    padding: 15px 20px 40px;
+  }
+
+  .map-header {
+    font-size: 28px;
+  }
+
+  .map-div {
+    height: 250px;
+  }
+
+  /* Testimonials */
+  .head-text {
+    font-size: 28px;
+  }
+
+  .test-sub-div {
     flex-direction: column;
+    align-items: center;
+    padding: 20px;
   }
 
-  .choice-text, .adv-text {
-    width: 80%;
-    margin-left: 15%;
-    text-align: left;
+  .comment-div {
+    width: 85%;
+    margin: 10px 0;
+    padding-right: 25px;
   }
 
-  .img-text-div {
-    display: flex;
-    flex-direction: column;
+  /* Insights */
+  .ins-head-div {
+    font-size: 16px;
+    padding: 40px 15px;
   }
 
-  .adv-section {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  .ins-text h3 {
+    font-size: 18px;
+  }
 }
+
+
+/* ---- 480px: Small Mobile ---- */
+@media (max-width: 480px) {
+
+  /* Hero */
+  .header {
+    font-size: 20px;
+    padding: 6.5rem 1rem 1rem 1rem;
+  }
+
+  .text-box {
+    width: 90%;
+  }
+
+  .track-btn {
+    width: 90%;
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  /* Cards */
+  .card-1, .card-2, .card-3, .card-4 {
+    width: 100%;
+    height: 7rem;
+  }
+
+  .card-1 h2, .card-2 h2, .card-3 h2, .card-4 h2 {
+    padding: 1.2rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .learn-more {
+    top: 75px;
+    font-size: 13px;
+  }
+
+  /* Offer section */
+  .offer-header {
+    font-size: 1.8em;
+  }
+
+  .storage-card,
+  .land-card,
+  .pet-card,
+  .delivery-card,
+  .cargo-card,
+  .air-card {
+    width: auto;
+  }
+
+  /* Shipping solutions */
+  .shipping-soln h1 {
+    font-size: 24px;
+  }
+
+  .article h3 {
+    font-size: 18px;
+  }
+
+  .article p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  /* Objective */
+  .obj-img {
+    height: 200px;
+  }
+
+  .obj-text {
+    font-size: 15px;
+  }
+
+  .obj-text h1 {
+    font-size: 1.3rem;
+    line-height: 28px;
+  }
+
+  /* Logistics */
+  .logistics-section h2 {
+    font-size: 22px;
+  }
+
+  .info-ready {
+    font-size: 18px;
+  }
+
+  .text {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .sub-btn {
+    width: 100%;
+  }
+
+  /* Map */
+  .map-header {
+    font-size: 20px;
+  }
+
+  .map-div {
+    height: 180px;
+  }
+
+  /* Testimonials */
+  .comment-div {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  /* Insights */
+  .ins-head-div h1 {
+    font-size: 18px;
+  }
+
+  .ship-btn {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+}
+
+
+/* ==========================================================================
+   ABOUT US PAGE (about-us.html)
+   ========================================================================== */
+
+/* ---- 1024px: Tablet ---- */
+@media (max-width: 1024px) {
+
+  .abt-us-image {
+    height: 360px;
+  }
+
+  /* Intro text */
+  .intro-text {
+    margin-left: 30px;
+    margin-top: 50px;
+    max-width: 90%;
+    font-size: 16px;
+  }
+
+  /* About cards */
+  .abt-card-container {
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 30px;
+    gap: 20px;
+  }
+
+  .abt-card {
+    width: 45%;
+  }
+
+  /* Choice section */
+  .choice-container {
+    flex-direction: column;
+  }
+
+  .warehouse-img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .warehouse-img img {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .choice-text {
+    margin-top: 30px;
+  }
+
+  .choice-text > * {
+    width: 100%;
+  }
+
+  .choice-text h2 {
+    font-size: 26px;
+  }
+
+  /* Adventure section */
+  .img-text-div {
+    flex-direction: column;
+  }
 
   .adv-img {
-    width: 87%;
+    width: 90%;
+    height: 400px;
+    margin: 40px auto 0;
+  }
+
+  .adv-text {
+    width: 90%;
+    margin: 30px auto 0;
+    font-size: 17px;
   }
 }
 
-/* About Page Media Queries end here */
+
+/* ---- 768px: Mobile ---- */
+@media (max-width: 768px) {
+
+  .abt-us-image {
+    height: 280px;
+  }
+
+  /* Intro text */
+  .intro-text {
+    margin-left: 15px;
+    margin-top: 40px;
+    max-width: 92%;
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  /* About cards */
+  .abt-card-container {
+    flex-direction: column;
+    width: 90%;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .abt-card {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* Choice section */
+  .choice-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .warehouse-img {
+    margin: 0;
+  }
+
+  .warehouse-img img {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .choice-text {
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  .choice-text h2 {
+    font-size: 22px;
+  }
+
+  .choice-text > * {
+    line-height: 28px;
+  }
+
+  /* Adventure section */
+  .adv-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .adv-head h1 {
+    font-size: 22px;
+    padding: 0 10px;
+  }
+
+  .adv-img {
+    width: 90%;
+    height: 240px;
+    margin: 30px auto 0;
+  }
+
+  .adv-text {
+    width: 90%;
+    margin: 20px auto 0;
+    font-size: 15px;
+  }
+
+  .adv-text p {
+    line-height: 28px;
+  }
+
+  #elite-span {
+    font-size: large;
+  }
+}
 
 
-/* Air Freight Page Media Queries end here */
+/* ---- 480px: Small Mobile ---- */
+@media (max-width: 480px) {
 
- .faqs-parent-container {
-    display: flex;
+  .abt-us-image {
+    height: 220px;
+  }
+
+  /* Intro text */
+  .intro-text {
+    margin-left: 10px;
+    margin-top: 30px;
+    max-width: 95%;
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  /* About cards */
+  .abt-card-container {
+    padding: 10px;
+  }
+
+  .abt-card h2 {
+    font-size: 18px;
+  }
+
+  .abt-card p {
+    font-size: 13px;
+  }
+
+  /* Choice section */
+  .choice-text h2 {
+    font-size: 18px;
+  }
+
+  .choice-text > * {
+    line-height: 24px;
+    font-size: 13px;
+  }
+
+  /* Adventure section */
+  .adv-head h1 {
+    font-size: 18px;
+  }
+
+  .adv-img {
+    height: 180px;
+  }
+
+  .adv-text {
+    font-size: 13px;
+  }
+
+  .adv-text p {
+    line-height: 22px;
+    margin-right: 0;
+  }
+
+  .adv-text button {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
+/* =============================
+   SERVICES PAGES
+   ============================ */
+
+/* ---- 1024px: Tablet ---- */
+@media (max-width: 1024px) {
+
+  /* Hero banners */
+  .air-freight-img,
+  .ocean-freight,
+  .land-trp-img,
+  .pet-trp-img,
+  .storage-facility-img,
+  .separate-del-img {
+    height: 450px;
+  }
+
+  .freight-hd,
+  .delivery-hd {
+    margin-top: 22%;
+    font-size: 1.6rem;
+  }
+
+  /* Description sections */
+  .freight-desc,
+  .ocean-freight-desc,
+  .storage-desc,
+  .delivery-desc {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+  .freight-desc p,
+  .freight-desc h2,
+  .ocean-freight-desc p,
+  .ocean-freight-desc h2,
+  .storage-desc p,
+  .storage-desc h2,
+  .delivery-desc p,
+  .delivery-desc h2 {
+    margin-left: 0;
+  }
+
+  .freight-desc h2,
+  .ocean-freight-desc h2,
+  .storage-desc h2 {
+    font-size: 1.8rem;
+  }
+
+  /* FAQs / Services section */
+  .faqs-parent-container {
     flex-direction: column;
   }
 
   .faqs-container,
-  .faqs-img {
-    width: 75%;
-  }
-
-  .faqs-img img {
-    width: 90%;
-    padding: 10px;
-  }
-
-
-
-/* ------------- */
-/* MOBILE */
-/* -------------*/
-@media screen and (max-width: 480px) {
-
-  .top-nav {
-    font-size: 0.75rem;
-    gap: 8px;
-  }
-
-  .header {
-    font-size: 20px;
-    padding: 20px 15px;
-    padding-top: 70px;
+  .faqs-img,
+  .ocean-faqs-img,
+  .land-faqs-img {
     width: 100%;
   }
 
-  .top-nav, .top-nav a {
-      text-decoration: none;
-      color: white;
-      font-size: 18px;
-    }
+  .faqs-drpdown {
+    width: 100%;
+    margin-left: 0;
+    box-sizing: border-box;
+    padding: 0 30px;
+  }
 
-  .card-1, .card-2, .card-3, .card-4 {
+  .faqs-img img,
+  .ocean-faqs-img img,
+  .land-faqs-img img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .ocean-faqs-img img,
+  .land-faqs-img img {
+    height: auto;
+  }
+
+  .frt-services-sect h2 {
+    font-size: 1.8rem;
+    padding: 0 20px;
+  }
+
+  /* Prompt delivery CTA */
+  .delv-container {
+    gap: 4rem;
+    align-items: center;
+    padding: 0 30px;
+  }
+
+  .delv-container h2 {
+    margin-left: 0;
+    font-size: 1.6rem;
+  }
+
+  /* Storage / Pet image gallery */
+  .storage-img-container {
+    flex-wrap: wrap;
+  }
+
+  .storage-img-container img {
+    width: 45%;
+    height: 220px;
+  }
+}
+
+
+/* ---- 768px: Mobile ---- */
+@media (max-width: 768px) {
+
+  /* Hero banners */
+  .air-freight-img,
+  .ocean-freight,
+  .land-trp-img,
+  .pet-trp-img,
+  .storage-facility-img,
+  .separate-del-img {
+    height: 380px;
+  }
+
+  .freight-hd,
+  .delivery-hd {
+    margin-top: 0;
+    font-size: 1rem;
+  }
+
+  /* Description sections */
+  .freight-desc,
+  .ocean-freight-desc,
+  .storage-desc,
+  .delivery-desc {
+    width: 92%;
+    margin-top: 35px;
+    line-height: 24px;
+    font-size: 15px;
+  }
+
+  .freight-desc h2,
+  .ocean-freight-desc h2,
+  .storage-desc h2 {
+    font-size: 1.4rem;
+  }
+
+  .delivery-desc h2 {
+    font-size: 1.2rem;
+  }
+
+  .freight-desc ul,
+  .ocean-freight-desc ul {
+    padding-left: 20px;
+  }
+
+  /* FAQs / Services section */
+  .frt-services-sect {
+    padding-bottom: 40px;
+    padding-top: 20px;
+  }
+
+  .frt-services-sect h2 {
+    font-size: 1.4rem;
+    padding: 0 15px;
+  }
+
+  .frt-services-sect p {
+    font-size: 14px;
+  }
+
+  .faqs-drpdown {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .faqs-sub-div p {
+    font-size: 14px;
+  }
+
+  /* Prompt delivery CTA */
+  .delv-section {
+    padding: 40px 0;
+  }
+
+  .delv-container {
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: center;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .delv-container h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .delv-btn {
+    padding: 12px 24px;
+    width: 60%;
+  }
+
+  /* Storage / Pet image gallery */
+  .storage-img-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .storage-img-container img {
+    width: 85%;
+    height: 200px;
+    margin: 10px 0;
+  }
+}
+
+
+/* ---- 480px: Small Mobile ---- */
+@media (max-width: 480px) {
+
+  /* Hero banners */
+  .air-freight-img,
+  .ocean-freight,
+  .land-trp-img,
+  .pet-trp-img,
+  .storage-facility-img,
+  .separate-del-img {
+    height: 300px;
+  }
+
+  .freight-hd,
+  .delivery-hd {
+    margin-top: 0;
+    font-size: 0.8rem;
+    padding: 0 10px;
+  }
+
+  /* Description sections */
+  .freight-desc,
+  .ocean-freight-desc,
+  .storage-desc,
+  .delivery-desc {
+    width: 94%;
+    margin-top: 25px;
+    line-height: 22px;
+    font-size: 13px;
+  }
+
+  .freight-desc h2,
+  .ocean-freight-desc h2,
+  .storage-desc h2 {
+    font-size: 1.2rem;
+  }
+
+  .delivery-desc h2 {
+    font-size: 1rem;
+  }
+
+  .freight-desc ul,
+  .ocean-freight-desc ul {
+    padding-left: 16px;
+    font-size: 13px;
+  }
+
+  /* FAQs / Services section */
+  .frt-services-sect h2 {
+    font-size: 1.1rem;
+  }
+
+  .faqs-drpdown {
+    width: 94%;
+  }
+
+  .faqs-sub-div p {
+    font-size: 12px;
+    margin-left: 6px;
+  }
+
+  .faqs-btn {
+    width: 28px;
+    font-size: 18px;
+  }
+
+  /* Prompt delivery CTA */
+  .delv-container h2 {
+    font-size: 1rem;
+  }
+
+  .delv-btn {
     width: 80%;
+    font-size: 13px;
   }
 
-  .offer-header {
-    font-size: 2em;
-  }
-
-  .shipping-soln h1 {
-    font-size: 22px;
-  }
-
-  .obj-text h1 {
-    font-size: 22px;
-    line-height: 32px;
-  }
-
-  .logistics-section h2 {
-    font-size: 26px;
-  }
-
-  .map-header {
-    font-size: 24px;
-  }
-
-  .head-text {
-    font-size: 26px;
-  }
-
-  .ft-p {
+  /* Storage / Pet image gallery */
+  .storage-img-container img {
     width: 100%;
-  }
-/* Home Page Media Queries end here */
-
-
-/* About Page Media Queries begin here */
-
-.choice-text h2 {
-    width: 100%;
-    line-height: 45px;
-  }
-
-  .choice-text {
-  margin-left: 0;
-  width: 90%;
-  padding: 0 15px;
-}
-
-  .adv-img {
-    margin-left: 30px;
-    width: 90%;
-  }
-  .adv-text {
-    margin-left: 30px;
-    width: 90%;
+    height: 170px;
   }
 }
 
-/* About Page Media Queries end here */
 
- 
+/* ==========================================================================
+   LAND TRANSPORT PAGE
+   ========================================================================== */
+
+/* ---- 1024px: Tablet ---- */
+@media (max-width: 1024px) {
+  .land-faqs-img img {
+    height: auto;
+  }
+}
+
+/* ---- 768px: Mobile ---- */
+@media (max-width: 768px) {
+  .freight-desc + section .faqs-drpdown {
+    margin-bottom: 20px;
+  }
+}
