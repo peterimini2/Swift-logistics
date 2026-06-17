@@ -1,5 +1,5 @@
 
-/* ---- 1024px: Tablet ---- */
+/* ---- 1024px ---- */
 @media (max-width: 1024px) {
 
   .logo {
@@ -43,7 +43,7 @@
 }
 
 
-/* ---- 768px: Mobile ---- */
+/* ---- 768px ---- */
 @media (max-width: 768px) {
 
   body {
@@ -56,7 +56,6 @@
     left: 16px;
   }
 
-  /* Stacked vertical mobile menu */
   .top-nav {
     flex-direction: column;
     align-items: center;
@@ -89,7 +88,6 @@
     padding: 8px;
   }
 
-  /* Footer column stacking */
   .foot-coln {
     flex-direction: column;
     gap: 10px;
@@ -133,7 +131,7 @@
 }
 
 
-/* ---- 480px: Small Mobile ---- */
+/* ---- 480px---- */
 @media (max-width: 480px) {
 
   .logo {
@@ -159,14 +157,14 @@
 }
 
 
-/* ==========================================================================
-   HOME PAGE (index.html)
-   ========================================================================== */
+/* 
+   HOME PAGE
+*/
 
-/* ---- 1024px: Tablet ---- */
+/* ---- 1024px ---- */
 @media (max-width: 1024px) {
 
-  /* First section / Hero */
+  /* First section */
   .header {
     font-size: 34px;
     padding: 8rem 2rem 2rem 2rem;
@@ -316,7 +314,7 @@
 }
 
 
-/* ---- 768px: Mobile ---- */
+/* ---- 768px ---- */
 @media (max-width: 768px) {
 
   /* First section / Hero */
@@ -497,7 +495,7 @@
 }
 
 
-/* ---- 480px: Small Mobile ---- */
+/* ---- 480px ---- */
 @media (max-width: 480px) {
 
   /* Hero */
@@ -620,11 +618,11 @@
 }
 
 
-/* ==========================================================================
-   ABOUT US PAGE (about-us.html)
-   ========================================================================== */
+/*
+   ABOUT US PAGE
+*/
 
-/* ---- 1024px: Tablet ---- */
+/* ---- 1024px---- */
 @media (max-width: 1024px) {
 
   .abt-us-image {
@@ -697,7 +695,7 @@
 }
 
 
-/* ---- 768px: Mobile ---- */
+/* ---- 768px ---- */
 @media (max-width: 768px) {
 
   .abt-us-image {
@@ -788,7 +786,7 @@
 }
 
 
-/* ---- 480px: Small Mobile ---- */
+/* ---- 480px ---- */
 @media (max-width: 480px) {
 
   .abt-us-image {
@@ -851,11 +849,11 @@
   }
 }
 
-/* =============================
+/* 
    SERVICES PAGES
-   ============================ */
+*/
 
-/* ---- 1024px: Tablet ---- */
+/* ---- 1024px---- */
 @media (max-width: 1024px) {
 
   /* Hero banners */
@@ -963,7 +961,7 @@
 }
 
 
-/* ---- 768px: Mobile ---- */
+/* ---- 768px ---- */
 @media (max-width: 768px) {
 
   /* Hero banners */
@@ -972,12 +970,14 @@
   .land-trp-img,
   .pet-trp-img,
   .storage-facility-img,
-  .separate-del-img {
+  .separate-del-img,
+  .tracking-bg {
     height: 380px;
   }
 
   .freight-hd,
-  .delivery-hd {
+  .delivery-hd,
+  .track-hd {
     margin-top: 0;
     font-size: 1rem;
   }
@@ -1071,7 +1071,7 @@
 }
 
 
-/* ---- 480px: Small Mobile ---- */
+/* ---- 480px---- */
 @media (max-width: 480px) {
 
   /* Hero banners */
@@ -1080,12 +1080,14 @@
   .land-trp-img,
   .pet-trp-img,
   .storage-facility-img,
-  .separate-del-img {
+  .separate-del-img,
+  .tracking-bg {
     height: 300px;
   }
 
   .freight-hd,
-  .delivery-hd {
+  .delivery-hd,
+  .track-hd {
     margin-top: 0;
     font-size: 0.8rem;
     padding: 0 10px;
@@ -1155,20 +1157,442 @@
 }
 
 
-/* ==========================================================================
+/* 
    LAND TRANSPORT PAGE
-   ========================================================================== */
+*/
 
-/* ---- 1024px: Tablet ---- */
+/* ---- 1024px ---- */
 @media (max-width: 1024px) {
   .land-faqs-img img {
     height: auto;
   }
 }
 
-/* ---- 768px: Mobile ---- */
+/* ---- 768px: ---- */
 @media (max-width: 768px) {
   .freight-desc + section .faqs-drpdown {
     margin-bottom: 20px;
+  }
+}
+
+
+/* 
+   TRACKING PAGE
+*/
+
+/* ---- 1024px---- */
+@media (max-width: 1024px) {
+
+  .tracking-bg {
+    height: 380px;
+  }
+
+  .track-hd {
+    margin-top: 22%;
+    font-size: 1.3rem;
+    width: 90%;
+    margin-left: 3px;
+  }
+
+  .track-parent-container {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .downloads-div {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .downloads-div ul {
+    width: 70%;
+  }
+
+  .consign-div {
+    width: 100%;
+    margin-left: 0;
+    max-height: none;
+  }
+
+  .track-text-box {
+    width: 60%;
+  }
+
+  .tracker-btn {
+    position: relative;
+    left: 30%;
+    top: 115%;
+    width: 30%;
+  }
+
+  .outline-div {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .track-desc-sect {
+    margin-bottom: 100px;
+  }
+}
+
+
+/* ---- 768px---- */
+@media (max-width: 768px) {
+
+  .tracking-bg {
+    height: 400px;
+  }
+
+  .track-hd {
+    margin-top: 0;
+    font-size: 1.3rem;
+  }
+
+  .track-parent-container {
+    padding: 25px 20px;
+  }
+
+  .downloads-div h2 {
+    font-size: 1.3rem;
+  }
+
+  .downloads-div ul {
+    line-height: 32px;
+  }
+
+  .consign-div p {
+    font-size: 15px;
+  }
+
+  .outline-div {
+    padding: 8px 10px 50px 15px;
+  }
+
+  .monitor-div h2 {
+    margin-left: 0;
+    font-size: 1.2rem;
+  }
+
+  .monitor-div li {
+    margin-left: 0;
+    line-height: 26px;
+    font-size: 14px;
+  }
+
+  .track-text-box {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .tracker-btn {
+    position: relative;
+    left: 0;
+    top: 15px;
+    width: 60%;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 12px 6px;
+  }
+
+  .track-desc-sect {
+    margin-bottom: 60px;
+  }
+}
+
+
+/* ---- 480px ---- */
+@media (max-width: 480px) {
+
+  .tracking-bg {
+    height: 330px;
+  }
+
+  .track-hd {
+    margin-top: 0;
+    font-size: 1.1rem;
+    padding: 0 10px;
+  }
+
+  .track-parent-container {
+    padding: 15px;
+  }
+
+  .downloads-div h2 {
+    font-size: 1.1rem;
+  }
+
+  .downloads-div ul {
+    font-size: 13px;
+    line-height: 28px;
+  }
+
+  .consign-div p {
+    font-size: 13px;
+  }
+
+  .outline-div h2 {
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+
+  .monitor-div h2 {
+    font-size: 1rem;
+  }
+
+  .monitor-div li {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .tracker-btn {
+    width: 80%;
+    font-size: 11px;
+  }
+
+  .track-desc-sect {
+    margin-bottom: 40px;
+  }
+}
+
+
+/* 
+   FAQs PAGE
+*/
+
+/* ---- 1024px ---- */
+@media (max-width: 1024px) {
+
+  .faqs-pg-parent {
+    flex-direction: column;
+    padding: 40px 30px;
+  }
+
+  .faqs-container-2,
+  .faqs-drpdown-2 {
+    width: 90%;
+  }
+
+  .faqs-container-2 img {
+    width: 60%;
+  }
+
+  .faqs-drpdown-2 {
+    margin-top: 30px;
+  }
+
+  .faqs-sub-div-2 p {
+    font-size: 15px;
+  }
+}
+
+
+/* ---- 768px---- */
+@media (max-width: 768px) {
+
+  .faqs-pg-parent {
+    padding: 25px 20px;
+  }
+
+  .faqs-container-2 h1 {
+    font-size: 1.6rem;
+  }
+
+  .faqs-container-2 p {
+    font-size: 15px;
+    width: 100%;
+    line-height: 26px;
+  }
+
+  .faqs-container-2 img {
+    width: 70%;
+  }
+
+  .faqs-drpdown-2 {
+    margin-top: 25px;
+  }
+
+  .faqs-sub-div-2 p {
+    font-size: 14px;
+    margin-left: 8px;
+  }
+
+  .faqs-btn-2 {
+    width: 30px;
+    font-size: 20px;
+  }
+}
+
+
+/* ---- 480px---- */
+@media (max-width: 480px) {
+
+  .faqs-pg-parent {
+    padding: 15px;
+  }
+
+  .faqs-container-2 h1 {
+    font-size: 1.3rem;
+  }
+
+  .faqs-container-2 p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .faqs-container-2 img {
+    width: 85%;
+  }
+
+  .faqs-sub-div-2 p {
+    font-size: 12px;
+  }
+
+  .faqs-btn-2 {
+    width: 26px;
+    font-size: 18px;
+  }
+}
+
+
+/*
+   CONTACT US PAGE
+*/
+
+/* ---- 1024px: Tablet ---- */
+@media (max-width: 1024px) {
+
+  .form-section {
+    padding: 35px;
+  }
+
+  .hd-div {
+    font-size: 1.5rem;
+    margin: 25px 0;
+  }
+
+  .mail-div {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .mail-sub {
+    width: 45%;
+  }
+
+  .contact-form {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .field-text,
+  .checkbox {
+    grid-column: span 1;
+  }
+
+  textarea {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+
+/* ---- 768px---- */
+@media (max-width: 768px) {
+
+  .form-section {
+    padding: 25px 20px;
+  }
+
+  .hd-div {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    text-align: left;
+  }
+
+  .mail-div {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .mail-sub {
+    width: 100%;
+  }
+
+  .mail-sub h2 {
+    font-size: 1.1rem;
+  }
+
+  .mail-sub p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .contact-form label {
+    font-size: 1.1rem;
+  }
+
+  input,
+  textarea {
+    padding: 14px;
+    font-size: 0.95rem;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .checkbox {
+    font-size: 0.95rem;
+  }
+
+  .cont-btn {
+    width: 100%;
+    padding: 14px;
+  }
+}
+
+
+/* ---- 480px---- */
+@media (max-width: 480px) {
+
+  .form-section {
+    padding: 15px;
+  }
+
+  .hd-div {
+    font-size: 1rem;
+  }
+
+  .mail-sub h2 {
+    font-size: 1rem;
+  }
+
+  .mail-sub p {
+    font-size: 12px;
+  }
+
+  .contact-form label {
+    font-size: 1rem;
+  }
+
+  input,
+  textarea {
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+
+  .checkbox {
+    font-size: 0.85rem;
+    gap: 10px;
+  }
+
+  input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+
+  .cont-btn {
+    font-size: 1rem;
+    padding: 10px;
   }
 }
