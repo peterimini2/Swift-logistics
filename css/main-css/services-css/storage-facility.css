@@ -1,0 +1,58 @@
+/* Storage Facility Page begins here */
+
+   .storage-facility-img {
+      background: url(/images/shipping17.jpg) top no-repeat;
+      width: 100%;
+      position: relative;  
+      background-size: cover;
+      height: 600px;
+      padding-top: 2px;
+    }
+
+    .storage-desc {
+      width: 95%;
+      margin-left: 10px;
+      margin-top: 80px;
+      line-height: 30px;
+    }
+
+    .storage-desc p,
+    .storage-desc h2 {
+      margin-left: 40px;
+    }
+
+    .storage-desc h2 {
+      font-size: xx-large;
+    }
+
+    .facility-sect {
+    background-color: black;
+    padding-bottom: 70px;
+    padding-top: 30px;
+  }
+
+  .facility-sect h2 {
+    color: var(--secondary-text-color);
+    text-align: center;
+    font-size: xx-large;
+  }
+
+  .facility-sect p {
+    color: rgb(202, 202, 202);
+    text-align: center;
+  }
+
+  .storage-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .storage-img-container img {
+    width: 30%;
+    height: 300px;
+    margin: 10px;
+    border-radius: 8px;
+  }
+
+   /* Storage Facility Page ends here */
