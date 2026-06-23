@@ -1,0 +1,36 @@
+
+
+    /* Separate Delivery Page begins here */
+
+    .separate-del-img {
+      background: url(/images/shipping24.jpg) top no-repeat;
+      width: 100%;
+      position: relative;  
+      background-size: cover;
+      height: 600px;
+      padding-top: 2px;
+    }
+
+    .delivery-hd {
+     text-align: center;
+     color: var(--bg-color);
+     margin-top: 15%;
+     font-size: x-large;
+  }
+
+   .delivery-desc {
+      width: 95%;
+      margin-left: 10px;
+      margin-top: 80px;
+      line-height: 30px;
+    }
+
+    .delivery-desc p,
+    .delivery-desc h2 {
+      margin-left: 40px;
+    }
+
+    .delivery-desc h2 {
+      font-size: 27px;
+      font-weight: bold;
+    }
