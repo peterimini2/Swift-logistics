@@ -42,31 +42,6 @@
 
   /* Ocean freight page ends here */
 
-
-  /* Land Transport page begins here */
-
-  .land-trp-img {
-      background: url(/images/shipping11.png) top no-repeat;
-      width: 100%;
-      position: relative;  
-      background-size: cover;
-      height: 600px;
-      padding-top: 2px;
-    }
-
-  .land-faqs-img {
-    width: 50%;
-  }
-
-   .land-faqs-img img {
-    width: 87%;
-    height: 105%;
-    border-radius: 6px;
-  }
-
-   /* Land Transport page ends here */
-
-
    /* Storage Facility Page begins here */
 
    .storage-facility-img {
