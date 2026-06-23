@@ -24,6 +24,14 @@
       color: white;
     }
 
+    .top-nav li:hover {
+      text-decoration: underline;
+      text-decoration-color: rgb(114, 99, 232);
+      font-weight: bold;
+      transition-duration: 1.5s;
+    }
+
+    
     .fa-caret-down {
       color: var(--bg-color);
       background: none;
@@ -68,12 +76,6 @@
       cursor: pointer;
     }
 
-    .top-nav li:hover {
-      text-decoration: underline;
-      text-decoration-color: rgb(114, 99, 232);
-      font-weight: bold;
-      transition-duration: 1.5s;
-    }
 
     .logo {
       width: 4rem;
@@ -1091,7 +1093,8 @@
   .delv-container {
     display: flex;
     flex-direction: row;
-    gap: 23rem;
+    align-items: center;
+    gap: 20rem;
   }
 
   .delv-container h2 {
@@ -1101,6 +1104,7 @@
 
   .delv-btn {
     background-color: var(--bg-color);
+    padding: 12px 22px;
     color: white;
     font-weight: bold;
     border: none;
