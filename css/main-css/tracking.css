@@ -1,0 +1,119 @@
+
+
+/* -------------------------------- */
+  /* TRACKING PAGE STARTS HERE */
+/* -------------------------------- */
+
+   .tracking-bg {
+      background: black;
+      width: 100%;
+      position: relative;  
+      background-size: cover;
+      height: 480px;
+      padding-top: 2px;
+    }
+
+    .track-hd {
+     text-align: center;
+     color:white;
+     margin-top: 15%;
+     font-size: x-large;
+  }
+
+  .track-parent-container {
+    display: flex;
+    padding: 60px;
+  }
+
+  .downloads-div {
+    margin-top: 22px;
+    background-color: black;
+    color: white;
+    width: 23%;
+  }
+
+  .downloads-div h2 {
+    color: var(--bg-color);
+    text-align: center;
+  }
+
+  .downloads-div ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-type: none;
+    cursor: pointer;
+    width: 100%;
+    line-height: 40px;
+    margin: 0;
+  }
+
+  .downloads-div li:hover {
+    color: var(--secondary-text-color);
+  }
+
+  .consign-div {
+    width: 80%;
+    max-height: 380px;
+    margin-left: 50px;
+  }
+
+  .consign-div p {
+    color: var(--bg-color);
+    font-size: large;
+    width: 100%;
+  }
+
+   .track-text-box {
+      padding: 16px;
+      width: 40%;
+      position: relative;
+      top: auto;
+      left: 0;
+      border-radius: solid black 7px;
+    }
+
+    .tracker-btn {
+      background-image: linear-gradient(to right, var(--bg-color), #151515);
+      padding: 13px 6px;
+      position: absolute;
+      top: 128%;
+      border-radius: 8px;
+      left: 50%;
+      width: 17%;
+      font-size: 12px;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+    }
+    
+    
+    .tracker-btn:hover {
+      color: var(--secondary-text-color)
+    }
+
+    .outline-div {
+      outline: solid black 1px;
+      width: 90%;
+      box-sizing: border-box;
+      padding: 8px 10px 30px 20px;
+    }
+
+    .monitor-div h2 {
+      margin-left: 20px;
+    }
+
+    .monitor-div li {
+      color: var(--secondary-text-color);
+      margin-left: 0;
+      line-height: 30px;
+    }
+
+    .track-desc-sect {
+      margin-bottom: 400px;
+      margin-top: 20px;
+    }
+
+/* -------------------------------- */
+/* TRACKING PAGE ENDS HERE */
+/* -------------------------------- */

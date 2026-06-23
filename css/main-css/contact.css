@@ -1,0 +1,110 @@
+
+/* -------------------------------- */
+  /* CONTACT PAGE STARTS HERE */
+/* -------------------------------- */
+
+.form-section {
+  background-color: var(--bg-color);
+  color: white;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.mail-div {
+  display: flex;
+}
+
+.mail-sub {
+  width: 45%;
+}
+
+.mail-sub p {
+  width: 90%;
+  color: #b5b5b3;
+}
+
+.mail-sub a {
+  text-decoration: none;
+  color:  #b5b5b3;
+}
+
+.hd-div {
+  text-align: center;
+  font-size: x-large;
+  margin: 40px 0;
+}
+
+/* Contact Form */
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.contact-form label {
+  font-size: 1.3rem;
+  color: white;
+}
+
+input,
+textarea {
+  padding: 20px;
+  border: none;
+  font-size: 1rem;
+}
+
+textarea {
+  min-width: 250px;
+  min-height: 150px;
+  resize: both;
+}
+
+.field-text {
+  display: flex;
+  flex-direction: column;
+  grid-column: span 2;
+  gap: 15px;
+}
+
+.checkbox {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.1rem;
+  cursor: default;
+  margin: 0;
+}
+
+input[type="checkbox"] {
+  width: 23px;
+  height: 23px;
+  accent-color: #1a6db1;
+}
+
+.cont-btn {
+  background-color: black;
+  color: var(--bg-color);
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cont-btn:hover {
+  background-color: var(--secondary-text-color);
+}
+
+.cont-btn a {
+  text-decoration: none;
+}

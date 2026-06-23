@@ -1,0 +1,59 @@
+
+
+/* -------------------------------- */
+  /* FAQs PAGE STARTS HERE */
+/* -------------------------------- */
+
+  .faqs-drpdown-2 {
+    width: 50%;
+    color: white;
+    margin-top: 25px;
+  }
+
+  .faqs-sub-div-2 {
+    background-color: #f5eded;
+    display: flex;
+    position: relative;
+    border: white solid 1px;
+    margin-bottom: 12px;
+  }
+
+  .faqs-sub-div-2 p {
+    color: black;
+    margin-left: 10px;
+  }
+
+  .faqs-btn-2 {
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 35px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .faqs-pg-parent {
+    display: flex;
+    box-sizing: border-box;
+    padding: 60px;
+  }
+  
+  .faqs-container-2 {
+    width: 50%;
+  }
+
+  .faqs-container-2 img {
+    width: 80%;
+  }
+
+  .faqs-container-2 p {
+    font-size: larger;
+    width: 90%;
+    line-height: 30px;
+  }
+
+  /* -------------------------------- */
+  /* FAQs PAGE ENDS HERE */
+/* -------------------------------- */

@@ -1,0 +1,142 @@
+
+/*
+   CONTACT US PAGE
+*/
+
+/* ---- 1024px ---- */
+@media (max-width: 1024px) {
+
+  .form-section {
+    padding: 35px;
+  }
+
+  .hd-div {
+    font-size: 1.5rem;
+    margin: 25px 0;
+  }
+
+  .mail-div {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .mail-sub {
+    width: 45%;
+  }
+
+  .contact-form {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .field-text,
+  .checkbox {
+    grid-column: span 1;
+  }
+
+  textarea {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+
+/* ---- 768px---- */
+@media (max-width: 768px) {
+
+  .form-section {
+    padding: 25px 20px;
+  }
+
+  .hd-div {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    text-align: left;
+  }
+
+  .mail-div {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .mail-sub {
+    width: 100%;
+  }
+
+  .mail-sub h2 {
+    font-size: 1.1rem;
+  }
+
+  .mail-sub p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .contact-form label {
+    font-size: 1.1rem;
+  }
+
+  input,
+  textarea {
+    padding: 14px;
+    font-size: 0.95rem;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .checkbox {
+    font-size: 0.95rem;
+  }
+
+  .cont-btn {
+    width: 100%;
+    padding: 14px;
+  }
+}
+
+
+/* ---- 480px---- */
+@media (max-width: 480px) {
+
+  .form-section {
+    padding: 15px;
+  }
+
+  .hd-div {
+    font-size: 1rem;
+  }
+
+  .mail-sub h2 {
+    font-size: 1rem;
+  }
+
+  .mail-sub p {
+    font-size: 12px;
+  }
+
+  .contact-form label {
+    font-size: 1rem;
+  }
+
+  input,
+  textarea {
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+
+  .checkbox {
+    font-size: 0.85rem;
+    gap: 10px;
+  }
+
+  input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+
+  .cont-btn {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}

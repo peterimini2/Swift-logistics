@@ -1,0 +1,232 @@
+
+
+/*
+   ABOUT US PAGE
+*/
+
+/* ---- 1024px---- */
+@media (max-width: 1024px) {
+
+  .abt-us-image {
+    height: 360px;
+  }
+
+  /* Intro text */
+  .intro-text {
+    margin-left: 30px;
+    margin-top: 50px;
+    max-width: 90%;
+    font-size: 16px;
+  }
+
+  /* About cards */
+  .abt-card-container {
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 30px;
+    gap: 20px;
+  }
+
+  .abt-card {
+    width: 45%;
+  }
+
+  /* Choice section */
+  .choice-container {
+    flex-direction: column;
+  }
+
+  .warehouse-img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .warehouse-img img {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .choice-text {
+    margin-top: 30px;
+  }
+
+  .choice-text > * {
+    width: 100%;
+  }
+
+  .choice-text h2 {
+    font-size: 26px;
+  }
+
+  /* Adventure section */
+  .img-text-div {
+    flex-direction: column;
+  }
+
+  .adv-img {
+    width: 90%;
+    height: 400px;
+    margin: 40px auto 0;
+  }
+
+  .adv-text {
+    width: 90%;
+    margin: 30px auto 0;
+    font-size: 17px;
+  }
+}
+
+
+/* ---- 768px ---- */
+@media (max-width: 768px) {
+
+  .abt-us-image {
+    height: 280px;
+  }
+
+  /* Intro text */
+  .intro-text {
+    margin-left: 15px;
+    margin-top: 40px;
+    max-width: 92%;
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  /* About cards */
+  .abt-card-container {
+    flex-direction: column;
+    width: 90%;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .abt-card {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* Choice section */
+  .choice-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .warehouse-img {
+    margin: 0;
+  }
+
+  .warehouse-img img {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .choice-text {
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  .choice-text h2 {
+    font-size: 22px;
+  }
+
+  .choice-text > * {
+    line-height: 28px;
+  }
+
+  /* Adventure section */
+  .adv-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .adv-head h1 {
+    font-size: 22px;
+    padding: 0 10px;
+  }
+
+  .adv-img {
+    width: 90%;
+    height: 240px;
+    margin: 30px auto 0;
+  }
+
+  .adv-text {
+    width: 90%;
+    margin: 20px auto 0;
+    font-size: 15px;
+  }
+
+  .adv-text p {
+    line-height: 28px;
+  }
+
+  #elite-span {
+    font-size: large;
+  }
+}
+
+
+/* ---- 480px ---- */
+@media (max-width: 480px) {
+
+  .abt-us-image {
+    height: 220px;
+  }
+
+  /* Intro text */
+  .intro-text {
+    margin-left: 10px;
+    margin-top: 30px;
+    max-width: 95%;
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  /* About cards */
+  .abt-card-container {
+    padding: 10px;
+  }
+
+  .abt-card h2 {
+    font-size: 18px;
+  }
+
+  .abt-card p {
+    font-size: 13px;
+  }
+
+  /* Choice section */
+  .choice-text h2 {
+    font-size: 18px;
+  }
+
+  .choice-text > * {
+    line-height: 24px;
+    font-size: 13px;
+  }
+
+  /* Adventure section */
+  .adv-head h1 {
+    font-size: 18px;
+  }
+
+  .adv-img {
+    height: 180px;
+  }
+
+  .adv-text {
+    font-size: 13px;
+  }
+
+  .adv-text p {
+    line-height: 22px;
+    margin-right: 0;
+  }
+
+  .adv-text button {
+    width: 100%;
+    padding: 12px;
+  }
+}

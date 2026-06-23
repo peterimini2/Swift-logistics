@@ -1,0 +1,180 @@
+
+/* 
+   TRACKING PAGE
+*/
+
+/* ---- 1024px---- */
+@media (max-width: 1024px) {
+
+  .tracking-bg {
+    height: 380px;
+  }
+
+  .track-hd {
+    margin-top: 22%;
+    font-size: 1.3rem;
+    width: 90%;
+    margin-left: 3px;
+  }
+
+  .track-parent-container {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .downloads-div {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .downloads-div ul {
+    width: 70%;
+  }
+
+  .consign-div {
+    width: 100%;
+    margin-left: 0;
+    max-height: none;
+  }
+
+  .track-text-box {
+    width: 60%;
+  }
+
+  .tracker-btn {
+    position: relative;
+    left: 30%;
+    top: 115%;
+    width: 30%;
+  }
+
+  .outline-div {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .track-desc-sect {
+    margin-bottom: 100px;
+  }
+}
+
+
+/* ---- 768px---- */
+@media (max-width: 768px) {
+
+  .tracking-bg {
+    height: 400px;
+  }
+
+  .track-hd {
+    margin-top: 0;
+    font-size: 1.3rem;
+  }
+
+  .track-parent-container {
+    padding: 25px 20px;
+  }
+
+  .downloads-div h2 {
+    font-size: 1.3rem;
+  }
+
+  .downloads-div ul {
+    line-height: 32px;
+  }
+
+  .consign-div p {
+    font-size: 15px;
+  }
+
+  .outline-div {
+    padding: 8px 10px 50px 15px;
+  }
+
+  .monitor-div h2 {
+    margin-left: 0;
+    font-size: 1.2rem;
+  }
+
+  .monitor-div li {
+    margin-left: 0;
+    line-height: 26px;
+    font-size: 14px;
+  }
+
+  .track-text-box {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .tracker-btn {
+    position: relative;
+    left: 0;
+    top: 15px;
+    width: 60%;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 12px 6px;
+  }
+
+  .track-desc-sect {
+    margin-bottom: 60px;
+  }
+}
+
+
+/* ---- 480px ---- */
+@media (max-width: 480px) {
+
+  .tracking-bg {
+    height: 330px;
+  }
+
+  .track-hd {
+    margin-top: 0;
+    font-size: 1.1rem;
+    padding: 0 10px;
+  }
+
+  .track-parent-container {
+    padding: 15px;
+  }
+
+  .downloads-div h2 {
+    font-size: 1.1rem;
+  }
+
+  .downloads-div ul {
+    font-size: 13px;
+    line-height: 28px;
+  }
+
+  .consign-div p {
+    font-size: 13px;
+  }
+
+  .outline-div h2 {
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+
+  .monitor-div h2 {
+    font-size: 1rem;
+  }
+
+  .monitor-div li {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .tracker-btn {
+    width: 80%;
+    font-size: 11px;
+  }
+
+  .track-desc-sect {
+    margin-bottom: 40px;
+  }
+}
+

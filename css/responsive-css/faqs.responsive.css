@@ -1,0 +1,99 @@
+
+
+/* 
+   FAQs PAGE
+*/
+
+/* ---- 1024px ---- */
+@media (max-width: 1024px) {
+
+  .faqs-pg-parent {
+    flex-direction: column;
+    padding: 40px 30px;
+  }
+
+  .faqs-container-2,
+  .faqs-drpdown-2 {
+    width: 90%;
+  }
+
+  .faqs-container-2 img {
+    width: 60%;
+  }
+
+  .faqs-drpdown-2 {
+    margin-top: 30px;
+  }
+
+  .faqs-sub-div-2 p {
+    font-size: 15px;
+  }
+}
+
+
+/* ---- 768px---- */
+@media (max-width: 768px) {
+
+  .faqs-pg-parent {
+    padding: 25px 20px;
+  }
+
+  .faqs-container-2 h1 {
+    font-size: 1.6rem;
+  }
+
+  .faqs-container-2 p {
+    font-size: 15px;
+    width: 100%;
+    line-height: 26px;
+  }
+
+  .faqs-container-2 img {
+    width: 70%;
+  }
+
+  .faqs-drpdown-2 {
+    margin-top: 25px;
+  }
+
+  .faqs-sub-div-2 p {
+    font-size: 14px;
+    margin-left: 8px;
+  }
+
+  .faqs-btn-2 {
+    width: 30px;
+    font-size: 20px;
+  }
+}
+
+
+/* ---- 480px---- */
+@media (max-width: 480px) {
+
+  .faqs-pg-parent {
+    padding: 15px;
+  }
+
+  .faqs-container-2 h1 {
+    font-size: 1.3rem;
+  }
+
+  .faqs-container-2 p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .faqs-container-2 img {
+    width: 85%;
+  }
+
+  .faqs-sub-div-2 p {
+    font-size: 12px;
+  }
+
+  .faqs-btn-2 {
+    width: 26px;
+    font-size: 18px;
+  }
+}

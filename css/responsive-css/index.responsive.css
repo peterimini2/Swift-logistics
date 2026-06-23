@@ -1,0 +1,631 @@
+
+/* ---- 1024px ---- */
+@media (max-width: 1024px) {
+
+  .logo {
+    width: 3.2rem;
+    top: 8px;
+    left: 20px;
+  }
+
+  .top-nav {
+    gap: 14px;
+    font-size: 0.9rem;
+    padding-top: 70px;
+  }
+
+  .footnote-section {
+    padding-right: 50px;
+    padding-left: 30px;
+  }
+
+  .foot-coln {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .coln-2,
+  .coln-3 {
+    margin-left: 0;
+  }
+
+  .coln-2-h3,
+  .coln-3-h3,
+  .coln-4-h3,
+  .coln-3-p,
+  .coln-4-p {
+    margin-left: 0;
+  }
+
+  .email-text {
+    padding-right: 120px;
+  }
+}
+
+
+/* ---- 768px ---- */
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .logo {
+    width: 2.8rem;
+    top: 8px;
+    left: 16px;
+  }
+
+  .top-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 65px;
+    padding-bottom: 15px;
+    width: 90%;
+  }
+
+  .top-nav li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dropdown {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dropdown-menu {
+    position: static;
+    width: 100%;
+    min-width: 0;
+    text-align: center;
+    box-shadow: none;
+  }
+
+  .dropdown-menu a {
+    margin-top: 0;
+    padding: 8px;
+  }
+
+  .foot-coln {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .coln-1,
+  .coln-2,
+  .coln-3,
+  .coln-4 {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .coln-2-h3,
+  .coln-3-h3,
+  .coln-4-h3,
+  .coln-3-p,
+  .coln-4-p {
+    margin-left: 0;
+  }
+
+  .coln-2 ul {
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .ft-p {
+    width: 100%;
+  }
+
+  .email-text {
+    width: 80%;
+    padding-right: 60px;
+    box-sizing: border-box;
+  }
+
+  .copyright {
+    margin-top: 60px;
+    font-size: 12px;
+  }
+}
+
+
+/* ---- 480px---- */
+@media (max-width: 480px) {
+
+  .logo {
+    width: 2.2rem;
+    top: 6px;
+    left: 10px;
+  }
+
+  .top-nav {
+    font-size: 0.85rem;
+    gap: 8px;
+    padding-top: 55px;
+  }
+
+  .ft-header {
+    font-size: 24px;
+  }
+
+  .brands {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}
+
+
+/* 
+   HOME PAGE
+*/
+
+/* ---- 1024px ---- */
+@media (max-width: 1024px) {
+
+  /* First section */
+  .header {
+    font-size: 34px;
+    padding: 8rem 2rem 2rem 2rem;
+    width: 70%;
+  }
+
+  .text-box {
+    width: 50%;
+    left: 5rem;
+  }
+
+  .track-btn {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: auto
+  }
+
+  /* Cards row */
+  .cards-container {
+    width: auto;
+    max-width: 100%;
+    margin-left: 4rem;
+    margin-top: 30rem;
+    margin-right: 2rem;
+    gap: 25px;
+  }
+
+  .card-1, .card-2, .card-3, .card-4 {
+    width: 100%;
+    height: 9rem;
+  }
+
+  .card-1 h2, .card-2 h2, .card-4 h2 {
+    padding: 1.8rem 3rem;
+    font-size: 1rem;
+  }
+
+  .card-3 h2 { 
+    padding: 1.8rem 2rem;
+    font-size: 1rem;
+  }
+
+  .learn-more {
+    left: 60px;
+    top: 95px;
+  }
+
+  /* Our Offer section */
+  .offer-section {
+    margin-top: 8rem;
+  }
+
+  /* Shipping Solutions */
+  .shipping-soln {
+    height: auto;
+    padding-bottom: 60px;
+  }
+
+  .ship-cargo {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 90%;
+    height: auto;
+    margin: 60px auto 0;
+    display: block;
+  }
+
+  .img-caption {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .article {
+    position: relative;
+    width: 90%;
+    margin: 30px auto 0;
+    top: 0;
+  }
+
+  /* Objective Section */
+  .obj-section {
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+  }
+
+  .obj-img {
+    width: 90%;
+    height: 450px;
+    margin: 40px auto 0;
+  }
+
+  .obj-text {
+    width: 90%;
+    margin: 30px auto 0;
+  }
+
+  /* Logistics Solutions */
+  .sub-div {
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .icon-container,
+  .form-div {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .form-div input {
+    width: 97%;
+  }
+
+  /* Map section */
+  .map-div {
+    height: 350px;
+  }
+
+  /* Testimonials */
+  .test-sub-div {
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .comment-div {
+    width: 45%;
+    margin: 10px;
+    padding-right: 25px;
+  }
+
+  /* Insights */
+  .ins-text {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .ins-head-div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+/* ---- 768px ---- */
+@media (max-width: 768px) {
+
+  /* First section / Hero */
+  .header {
+    font-size: 26px;
+    padding: 7rem 1.5rem 1.5rem 1.5rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .track-text-div {
+    position: relative;
+    left: 0;
+  }
+
+ .text-box {
+    width: 90%;
+    left: 0;
+  }
+
+  .track-btn {
+    width: 90%;
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  .track-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Cards row */
+  .cards-container {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 5rem;
+    gap: 15px;
+    padding: 0 1rem;
+    width: auto;
+  }
+
+  .card-1, .card-2, .card-3, .card-4 {
+    width: 100%;
+    height: 8rem;
+  }
+
+  .card-1 h2, .card-2 h2, .card-3 h2, .card-4 h2 {
+    padding: 1.5rem 2rem;
+    white-space: normal;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .learn-more {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 90px;
+  }
+
+  /* Our Offer section */
+  .offer-section {
+    margin-top: 4rem;
+  }
+
+  .offer-header {
+    font-size: 2.2em;
+    padding-bottom: 30px;
+  }
+
+  .storage-card,
+  .land-card,
+  .pet-card,
+  .delivery-card,
+  .cargo-card,
+  .air-card {
+    width: auto;
+  }
+
+  /* Shipping Solutions */
+  .shipping-soln h1 {
+    font-size: 32px;
+    text-align: center;
+    padding: 30px 1rem 0;
+  }
+
+  .ship-cargo,
+  .img-caption,
+  .article {
+    width: 90%;
+  }
+
+  .article {
+    font-size: 16px;
+  }
+
+  /* Objective Section */
+  .obj-img {
+    width: 90%;
+    height: 420px;
+  }
+
+  .obj-text {
+    width: 90%;
+    font-size: 17px;
+  }
+
+  .obj-text h1 {
+    font-size: 1.6rem;
+    line-height: 36px;
+  }
+
+  /* Logistics Solutions */
+  .logistics-section {
+    padding: 30px 20px 50px;
+  }
+
+  .logistics-section h2 {
+    font-size: 28px;
+  }
+
+  .info-ready {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .parcel-div,
+  .client-div,
+  .branch-div {
+    flex-wrap: wrap;
+  }
+
+  .form-div {
+    margin-top: 30px;
+  }
+
+  /* Map section */
+  .map-section {
+    padding: 15px 20px 40px;
+  }
+
+  .map-header {
+    font-size: 28px;
+  }
+
+  .map-div {
+    height: 250px;
+  }
+
+  /* Testimonials */
+  .head-text {
+    font-size: 28px;
+  }
+
+  .test-sub-div {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .comment-div {
+    width: 85%;
+    margin: 10px 0;
+    padding-right: 25px;
+  }
+
+  /* Insights */
+  .ins-head-div {
+    font-size: 16px;
+    padding: 40px 15px;
+  }
+
+  .ins-text h3 {
+    font-size: 18px;
+  }
+}
+
+
+/* ---- 480px ---- */
+@media (max-width: 480px) {
+
+  /* Hero */
+  .header {
+    font-size: 20px;
+    padding: 6.5rem 1rem 1rem 1rem;
+  }
+
+  .text-box {
+    width: 90%;
+  }
+
+  .track-btn {
+    width: 90%;
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  /* Cards */
+  .card-1, .card-2, .card-3, .card-4 {
+    width: 100%;
+    height: 7rem;
+  }
+
+  .card-1 h2, .card-2 h2, .card-3 h2, .card-4 h2 {
+    padding: 1.2rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .learn-more {
+    top: 75px;
+    font-size: 13px;
+  }
+
+  /* Offer section */
+  .offer-header {
+    font-size: 1.8em;
+  }
+
+  .storage-card,
+  .land-card,
+  .pet-card,
+  .delivery-card,
+  .cargo-card,
+  .air-card {
+    width: auto;
+  }
+
+  /* Shipping solutions */
+  .shipping-soln h1 {
+    font-size: 24px;
+  }
+
+  .article h3 {
+    font-size: 18px;
+  }
+
+  .article p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  /* Objective */
+  .obj-img {
+    height: 200px;
+  }
+
+  .obj-text {
+    font-size: 15px;
+  }
+
+  .obj-text h1 {
+    font-size: 1.3rem;
+    line-height: 28px;
+  }
+
+  /* Logistics */
+  .logistics-section h2 {
+    font-size: 22px;
+  }
+
+  .info-ready {
+    font-size: 18px;
+  }
+
+  .text {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .sub-btn {
+    width: 100%;
+  }
+
+  /* Map */
+  .map-header {
+    font-size: 20px;
+  }
+
+  .map-div {
+    height: 180px;
+  }
+
+  /* Testimonials */
+  .comment-div {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  /* Insights */
+  .ins-head-div h1 {
+    font-size: 18px;
+  }
+
+  .ship-btn {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+}
+
+/*--------370px-------- */
+@media (max-width: 370px) {
+  .top-nav {
+    width: auto;
+  }
+
+  .offer-container {
+    width: 50%;
+  }
+}
