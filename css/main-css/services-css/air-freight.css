@@ -1,0 +1,145 @@
+*/
+
+/* Air Freight page */
+
+.air-freight-img {
+      background: url(/images/shipping7.webp);
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%; 
+      height: 600px;
+      padding-top: 1px;
+  }
+
+  .freight-hd {
+    text-align: center;
+    margin-top: 15%;
+    font-size: x-large;
+  }
+
+  /* First section ends here */
+
+  /* Description section begins here */
+
+  .freight-desc {
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 80px;
+    line-height: 27px;
+  }
+
+  .freight-desc li {
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+  .freight-desc p,
+  .freight-desc h2 {
+    margin-left: 40px;
+  }
+
+  .freight-desc h2 {
+    font-size: xx-large;
+  }
+
+  /* Description section ends here */
+
+
+  /* Freight Services section begins here */
+
+  .frt-services-sect {
+    background-color: black;
+    padding-bottom: 70px;
+    padding-top: 30px;
+  }
+
+  .frt-services-sect h2 {
+    color: var(--secondary-text-color);
+    text-align: center;
+  }
+
+  .frt-services-sect p {
+    color: rgb(202, 202, 202);
+    text-align: center;
+  }
+
+  .faqs-parent-container {
+    display: flex;
+  }
+
+  .faqs-container,
+  .faqs-img {
+    width: 50%;
+    
+  }
+
+  .faqs-img img {
+    width: 87%;
+    border-radius: 6px;
+  }
+  
+  .faqs-drpdown {
+    width: 85%;
+    color: white;
+    margin-left: 45px;
+  }
+
+  .faqs-sub-div {
+    background-color: var(--bg-color);
+    display: flex;
+    position: relative;
+    border: white solid 1px;
+    margin-bottom: 12px;
+  }
+
+  .faqs-sub-div p {
+    color: white;
+    margin-left: 10px;
+  }
+
+  .faqs-btn {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 35px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+/* Freight Services section ends here */
+
+
+/* Prompt Delivery section begins here */
+
+  .delv-section {
+    padding: 60px 0;
+  }
+
+  .delv-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20rem;
+  }
+
+  .delv-container h2 {
+    margin-left: 80px;
+    font-size: xx-large;
+  }
+
+  .delv-btn {
+    background-color: var(--bg-color);
+    padding: 12px 22px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    }
+
+    .delv-btn:hover {
+      background-color: var(--secondary-text-color);
+    }
+
+  /* Air Freight page ends here*/
