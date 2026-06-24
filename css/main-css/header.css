@@ -86,3 +86,8 @@
       left: 40px;
       cursor: pointer;
     }
+
+     :root {
+      --secondary-text-color: #6d6d67;
+      --bg-color: rgb(114, 99, 232);
+    }

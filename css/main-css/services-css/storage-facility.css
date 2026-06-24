@@ -33,9 +33,9 @@
     }
 
     .facility-sect {
-    background-color: black;
-    padding-bottom: 70px;
-    padding-top: 30px;
+      background-color: black;
+      padding-bottom: 70px;
+      padding-top: 30px;
   }
 
   .facility-sect h2 {
@@ -91,6 +91,5 @@
     .delv-btn:hover {
       background-color: var(--secondary-text-color);
     }
-
 
    /* Storage Facility Page ends here */

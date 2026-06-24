@@ -1,0 +1,157 @@
+
+/* ---- 1024px ---- */
+@media (max-width: 1024px) {
+
+  .logo {
+    width: 3.2rem;
+    top: 8px;
+    left: 20px;
+  }
+
+  .top-nav {
+    gap: 14px;
+    font-size: 0.9rem;
+    padding-top: 70px;
+  }
+
+  .footnote-section {
+    padding-right: 50px;
+    padding-left: 30px;
+  }
+
+  .foot-coln {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .coln-2,
+  .coln-3 {
+    margin-left: 0;
+  }
+
+  .coln-2-h3,
+  .coln-3-h3,
+  .coln-4-h3,
+  .coln-3-p,
+  .coln-4-p {
+    margin-left: 0;
+  }
+
+  .email-text {
+    padding-right: 120px;
+  }
+}
+
+
+/* ---- 768px ---- */
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .logo {
+    width: 2.8rem;
+    top: 8px;
+    left: 16px;
+  }
+
+  .top-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 65px;
+    padding-bottom: 15px;
+    width: 90%;
+  }
+
+  .top-nav li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dropdown {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dropdown-menu {
+    position: static;
+    width: 100%;
+    min-width: 0;
+    text-align: center;
+    box-shadow: none;
+  }
+
+  .dropdown-menu a {
+    margin-top: 0;
+    padding: 8px;
+  }
+
+  .foot-coln {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .coln-1,
+  .coln-2,
+  .coln-3,
+  .coln-4 {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .coln-2-h3,
+  .coln-3-h3,
+  .coln-4-h3,
+  .coln-3-p,
+  .coln-4-p {
+    margin-left: 0;
+  }
+
+  .coln-2 ul {
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .ft-p {
+    width: 100%;
+  }
+
+  .email-text {
+    width: 80%;
+    padding-right: 60px;
+    box-sizing: border-box;
+  }
+
+  .copyright {
+    margin-top: 60px;
+    font-size: 12px;
+  }
+}
+
+
+/* ---- 480px---- */
+@media (max-width: 480px) {
+
+  .logo {
+    width: 2.2rem;
+    top: 6px;
+    left: 10px;
+  }
+
+  .top-nav {
+    font-size: 0.85rem;
+    gap: 8px;
+    padding-top: 55px;
+  }
+
+  .ft-header {
+    font-size: 24px;
+  }
+
+  .brands {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}

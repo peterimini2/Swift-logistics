@@ -35,10 +35,7 @@
 
   /* Description section ends here */
 
-
  
-/* Storage Facility Page begins here */
-
    .storage-facility-img {
       background: url(/images/shipping17.jpg) top no-repeat;
       width: 100%;
@@ -71,9 +68,9 @@
     }
 
     .facility-sect {
-    background-color: black;
-    padding-bottom: 70px;
-    padding-top: 30px;
+      background-color: black;
+      padding-bottom: 70px;
+      padding-top: 30px;
   }
 
   .facility-sect h2 {
