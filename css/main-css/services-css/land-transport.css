@@ -1,91 +1,4 @@
 
-  body {
-    font-family: Poppins, sans-serif;
-    max-width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
-  }
-
-
-
-  /* Navigation */
- .top-nav {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    gap: 20px;
-    margin-top: 10px;
-    justify-content: center;
-    font-size: 1rem;
-    color: white;
-    padding-top: 20px;
-    cursor: pointer;
-    }
-
-    .top-nav a {
-      text-decoration: none;
-      color: white;
-    }
-
-    .top-nav li:hover {
-      text-decoration: underline;
-      text-decoration-color: rgb(114, 99, 232);
-      font-weight: bold;
-      transition-duration: 1.5s;
-    }
-
-    
-    .fa-caret-down {
-      color: var(--bg-color);
-      background: none;
-    }
-
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
-
-    .dropdown-menu {
-      display: none;
-      position: absolute;
-      left: 0;
-      top: 40px;
-      background: white;
-      min-width: 250px;
-      max-height: 360px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-      overflow: hidden;
-    }
-
-    .dropdown-menu a {
-      display: block;
-      padding: 10px;
-      text-decoration: none;
-      color: black;
-      font-weight: bold;
-      line-height: 18px;
-      margin-top: 15px;
-    }
-
-    #toggle {
-      display: none;
-    }
-
-    #toggle:checked ~ .dropdown-menu {
-      display: block;
-    }
-
-    .dropdown-toggle {
-      cursor: pointer;
-    }
-
-    .logo {
-      width: 4rem;
-      position: absolute;
-      top: 9px;
-      left: 40px;
-      cursor: pointer;
-    }
   /* Land Transport page begins here */
 
   .land-trp-img {
@@ -106,5 +19,135 @@
     height: 105%;
     border-radius: 6px;
   }
+
+  .freight-hd {
+    text-align: center;
+    margin-top: 15%;
+    font-size: x-large;
+  }
+
+  /* First section ends here */
+
+  /* Description section begins here */
+
+  .freight-desc {
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 80px;
+    line-height: 27px;
+  }
+
+  .freight-desc li {
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+  .freight-desc p,
+  .freight-desc h2 {
+    margin-left: 40px;
+  }
+
+  .freight-desc h2 {
+    font-size: xx-large;
+  }
+
+  /* Description section ends here */
+
+
+  /* Freight Services section begins here */
+
+  .frt-services-sect {
+    background-color: black;
+    padding-bottom: 70px;
+    padding-top: 30px;
+  }
+
+  .frt-services-sect h2 {
+    color: var(--secondary-text-color);
+    text-align: center;
+  }
+
+  .frt-services-sect p {
+    color: rgb(202, 202, 202);
+    text-align: center;
+  }
+
+  .faqs-parent-container {
+    display: flex;
+  }
+
+  .faqs-container,
+  .faqs-img {
+    width: 50%;
+    
+  }
+
+  .faqs-img img {
+    width: 87%;
+    border-radius: 6px;
+  }
+  
+  .faqs-drpdown {
+    width: 85%;
+    color: white;
+    margin-left: 45px;
+  }
+
+  .faqs-sub-div {
+    background-color: var(--bg-color);
+    display: flex;
+    position: relative;
+    border: white solid 1px;
+    margin-bottom: 12px;
+  }
+
+  .faqs-sub-div p {
+    color: white;
+    margin-left: 10px;
+  }
+
+  .faqs-btn {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 35px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+/* Freight Services section ends here */
+
+
+/* Prompt Delivery section begins here */
+
+  .delv-section {
+    padding: 60px 0;
+  }
+
+  .delv-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20rem;
+  }
+
+  .delv-container h2 {
+    margin-left: 80px;
+    font-size: xx-large;
+  }
+
+  .delv-btn {
+    background-color: var(--bg-color);
+    padding: 12px 22px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    }
+
+    .delv-btn:hover {
+      background-color: var(--secondary-text-color);
+    }
 
    /* Land Transport page ends here */
