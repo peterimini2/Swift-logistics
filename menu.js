@@ -1,5 +1,5 @@
         const mobileBtn = document.getElementById('mobile-cta')
-              nav = document.querySelector('nav')
+              nav = document.querySelector('.top-nav')
               mobileBtnExit = document.getElementById('mobile-exit');
 
         mobileBtn.addEventListener('click', () => {

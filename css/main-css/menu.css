@@ -49,7 +49,7 @@
     cursor: pointer;
   }
 
-  .menu-btn {
+  .top-nav.menu-btn {
     display: block;
 }
 }
