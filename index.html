@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="/css/main-css/header.css">
   <link rel="stylesheet" href="/css/responsive-css/header.responsive.css">
   <link rel="stylesheet" href="/css/responsive-css/index.responsive.css">
+  <link rel="stylesheet" href="css/main-css/menu.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" 
@@ -22,6 +23,7 @@
   <section class="first-section"> 
     <nav class="top-image">
         <ul class="top-nav">
+          <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
           <li><a href="#">HOME</a></li>
           <li><a href="/about-us.html">ABOUT US</a></li>
 
@@ -31,7 +33,7 @@
               SERVICES <i class="fa-solid fa-caret-down"></i>
               </label>
 
-             <input type="checkbox" id="toggle">
+             <input class="checkbox" type="checkbox" id="toggle">
 
 
               <div class="dropdown-menu">
@@ -49,6 +51,11 @@
           <li><a href="/contact.html">CONTACT US</a></li>
         </ul>
 
+        <div class="logo-menu">
+          <img src="/images/logo.png" alt="logo" class="logo">
+          <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+        </div>
+
         <div class="track-header">
           <h1 class="header">Please we are here provide your 
             tracking ID to trace your shipment's progress.
@@ -60,12 +67,6 @@
             <button class="track-btn">TRACK YOUR SHIPMENT &rarr;</button>
           </div>
         </div>
-
-      
-
-      <div>
-        <img src="/images/logo.png" alt="logo" class="logo">
-      </div>
 
       <button class="chat-btn">
         <div class="widget-text">Chat</div>

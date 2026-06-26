@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+
+  .top-nav {
+    display: block;
+  }
+
+  .logo {
+    position: relative;
+    width: 10%;
+  }
+
+  .logo-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .mobile-menu {
+    width: 6%;
+    padding: 1em;
+    cursor: pointer;
+  }
+
+  .top-nav {
+    position: fixed;
+    z-index: 999;
+    width: 66%;
+    right: 0;
+    top: 0;
+    background: var(--bg-color);
+    height: 100vh;
+    padding: 1em;
+    padding-top: 10.4em;
+  }
+
+  .top-nav li {
+    font-size: 1.2em;
+    margin-top: 2.6em;
+    text-align: left;
+    margin-left: 2em;
+  }
+
+  .fa-caret-down {
+    background-color: rgb(249, 248, 248);
+  }
+
+  .mobile-menu-exit {
+    float: right;
+    margin: .5em;
+    cursor: pointer;
+  }
+}
+
+
+
+  
