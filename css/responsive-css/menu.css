@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+
+  nav.menu-btn {
+      display: block;
+  }
+
+  nav {
+    position: fixed;
+    z-index: 999;
+    width: 66%;
+    right: 0;
+    top: 0;
+    background: #20272E;
+    height: 100vh;
+    padding: 1em;
+  }
+}
+
+
+
+  
