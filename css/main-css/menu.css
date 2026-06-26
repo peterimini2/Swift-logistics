@@ -29,8 +29,7 @@
     top: 0;
     background: var(--bg-color);
     height: 100vh;
-    padding: 1em;
-    padding-top: 10.4em;
+    padding: 10.4em 1em 1em;
   }
 
   .top-nav li {
