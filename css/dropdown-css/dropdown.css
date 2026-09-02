@@ -13,3 +13,7 @@
 .faq-answer.show {
   display: block;
 }
+
+.faqs-div p {
+  text-align: left;
+}
