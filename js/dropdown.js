@@ -1,13 +1,17 @@
-const questions = document.querySelectorAll('.faq-question');
+const buttons = document.querySelectorAll('.faqs-btn');
 
-questions.forEach((question) => {
-  question.addEventListener('click', () => {
-    const answer = question.nextElementSibling;
+buttons.forEach((button) => {
+  button.addEventListener('click', () => {
+    const answer = button.parentElement.nextElementSibling;
+    const isOpen = answer.classList.contains('show');
 
-    questions.forEach((item) => {
-      item.nextElementSibling.classList.remove('show');
+    buttons.forEach((item) => {
+      const otherAnswer = item.parentElement.nextElementSibling;
+      otherAnswer.classList.remove('show');
     });
-
-    answer.classList.toggle('show');
+    
+    if (!isOpen) {
+      answer.classList.add('show');
+    }
   });
 });
