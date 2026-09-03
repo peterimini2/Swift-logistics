@@ -2,7 +2,7 @@
   display: none;
   text-align: left;
   border: 1px solid white;
-  border-top: none;
+  margin-top: -15px;
 }
 
 .faq-answer p {
@@ -16,4 +16,6 @@
 
 .faqs-div p {
   text-align: left;
+  margin-left: 20px;
+  margin-right: 16px;
 }
