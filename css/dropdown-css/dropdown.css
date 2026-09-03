@@ -3,11 +3,11 @@
   text-align: left;
   border: 1px solid white;
   margin-top: -15px;
+  color: rgb(105, 103, 103);
 }
 
 .faq-answer p {
   font-size: 16px;
-  font-weight: bold;
 }
 
 .faq-answer.show {
